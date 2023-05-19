@@ -194,7 +194,7 @@ if mode == 'append_anno':
 			coor.append(line)
 	for line in coor:
 		curr = []	
-		with open(f'{line[0]}.pre.dG','w') as cluster:
+		with open(f'{line[0]}.pre.dG') as cluster:
 			for row in cluster:				
 				curr.append(row.strip('\n'))
 			skip1 = int(line[1]) - int(line[3])
