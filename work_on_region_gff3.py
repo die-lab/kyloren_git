@@ -197,8 +197,8 @@ if mode == 'append_anno':
 		with open(f'{line[0]}.pre.dG','w') as cluster:
 			for row in cluster:				
 				curr.append(row.strip('\n'))
-		skip1 = int(line[1]) - int(line[3])
-		skip2 = int(line[2]) - int(line[3])
+			skip1 = int(line[1]) - int(line[3])
+			skip2 = int(line[2]) - int(line[3])
 			cluster.close()
 		with open(f'{line[0]}.pre.dG','w') as cluster:
 			cluster.write(curr[0] + '\n' + ipipe(curr[1], skip1, skip2) + '\n' + ipipe(curr[2], skip1, skip2) + '\n' + ipipe(curr[3], skip1, skip2) + '\n')
