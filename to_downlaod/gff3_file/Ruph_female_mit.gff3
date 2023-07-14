@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_042687.1 1 15180
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=416868
+NC_042687.1	RefSeq	region	1	15180	.	+	.	ID=NC_042687.1:1..15180;Dbxref=taxon:416868;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_042687.1	RefSeq	gene	1	1533	.	+	.	ID=gene-FKU95_mgp01;Dbxref=GeneID:40493482;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=FKU95_mgp01
+NC_042687.1	RefSeq	CDS	1	1533	.	+	0	ID=cds-YP_009648857.1;Parent=gene-FKU95_mgp01;Dbxref=GenBank:YP_009648857.1,GeneID:40493482;Name=YP_009648857.1;gbkey=CDS;gene=COX1;locus_tag=FKU95_mgp01;product=cytochrome c oxidase subunit I;protein_id=YP_009648857.1;transl_table=5
+NC_042687.1	RefSeq	gene	1534	1599	.	+	.	ID=gene-FKU95_mgt01;Dbxref=GeneID:40493445;Name=trnW(tca);gbkey=Gene;gene=trnW(tca);gene_biotype=tRNA;locus_tag=FKU95_mgt01
+NC_042687.1	RefSeq	tRNA	1534	1599	.	+	.	ID=rna-FKU95_mgt01;Parent=gene-FKU95_mgt01;Dbxref=GeneID:40493445;gbkey=tRNA;gene=trnW(tca);locus_tag=FKU95_mgt01;product=tRNA-Trp
+NC_042687.1	RefSeq	exon	1534	1599	.	+	.	ID=exon-FKU95_mgt01-1;Parent=rna-FKU95_mgt01;Dbxref=GeneID:40493445;gbkey=tRNA;gene=trnW(tca);locus_tag=FKU95_mgt01;product=tRNA-Trp
+NC_042687.1	RefSeq	gene	1600	2284	.	+	.	ID=gene-FKU95_mgp13;Dbxref=GeneID:40493459;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=FKU95_mgp13
+NC_042687.1	RefSeq	CDS	1600	2284	.	+	0	ID=cds-YP_009648858.1;Parent=gene-FKU95_mgp13;Dbxref=GenBank:YP_009648858.1,GeneID:40493459;Name=YP_009648858.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=FKU95_mgp13;product=cytochrome c oxidase subunit II;protein_id=YP_009648858.1;transl_except=(pos:2284..2284%2Caa:TERM);transl_table=5
+NC_042687.1	RefSeq	gene	2285	2357	.	+	.	ID=gene-FKU95_mgt02;Dbxref=GeneID:40493446;Name=trnD(gtc);gbkey=Gene;gene=trnD(gtc);gene_biotype=tRNA;locus_tag=FKU95_mgt02
+NC_042687.1	RefSeq	tRNA	2285	2357	.	+	.	ID=rna-FKU95_mgt02;Parent=gene-FKU95_mgt02;Dbxref=GeneID:40493446;gbkey=tRNA;gene=trnD(gtc);locus_tag=FKU95_mgt02;product=tRNA-Asp
+NC_042687.1	RefSeq	exon	2285	2357	.	+	.	ID=exon-FKU95_mgt02-1;Parent=rna-FKU95_mgt02;Dbxref=GeneID:40493446;gbkey=tRNA;gene=trnD(gtc);locus_tag=FKU95_mgt02;product=tRNA-Asp
+NC_042687.1	RefSeq	gene	2358	2522	.	+	.	ID=gene-FKU95_mgp12;Dbxref=GeneID:40493460;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=FKU95_mgp12
+NC_042687.1	RefSeq	CDS	2358	2522	.	+	0	ID=cds-YP_009648859.1;Parent=gene-FKU95_mgp12;Dbxref=GenBank:YP_009648859.1,GeneID:40493460;Name=YP_009648859.1;gbkey=CDS;gene=ATP8;locus_tag=FKU95_mgp12;product=ATP synthase F0 subunit 8;protein_id=YP_009648859.1;transl_table=5
+NC_042687.1	RefSeq	gene	2561	3253	.	+	.	ID=gene-FKU95_mgp11;Dbxref=GeneID:40493447;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=FKU95_mgp11
+NC_042687.1	RefSeq	CDS	2561	3253	.	+	0	ID=cds-YP_009648860.1;Parent=gene-FKU95_mgp11;Dbxref=GenBank:YP_009648860.1,GeneID:40493447;Name=YP_009648860.1;gbkey=CDS;gene=ATP6;locus_tag=FKU95_mgp11;product=ATP synthase F0 subunit 6;protein_id=YP_009648860.1;transl_table=5
+NC_042687.1	RefSeq	gene	3271	3333	.	+	.	ID=gene-FKU95_mgt03;Dbxref=GeneID:40493448;Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA;locus_tag=FKU95_mgt03
+NC_042687.1	RefSeq	tRNA	3271	3333	.	+	.	ID=rna-FKU95_mgt03;Parent=gene-FKU95_mgt03;Dbxref=GeneID:40493448;gbkey=tRNA;gene=trnC(gca);locus_tag=FKU95_mgt03;product=tRNA-Cys
+NC_042687.1	RefSeq	exon	3271	3333	.	+	.	ID=exon-FKU95_mgt03-1;Parent=rna-FKU95_mgt03;Dbxref=GeneID:40493448;gbkey=tRNA;gene=trnC(gca);locus_tag=FKU95_mgt03;product=tRNA-Cys
+NC_042687.1	RefSeq	gene	3344	3418	.	+	.	ID=gene-FKU95_mgt04;Dbxref=GeneID:40493461;Name=trnM(cat);gbkey=Gene;gene=trnM(cat);gene_biotype=tRNA;locus_tag=FKU95_mgt04
+NC_042687.1	RefSeq	tRNA	3344	3418	.	+	.	ID=rna-FKU95_mgt04;Parent=gene-FKU95_mgt04;Dbxref=GeneID:40493461;gbkey=tRNA;gene=trnM(cat);locus_tag=FKU95_mgt04;product=tRNA-Met
+NC_042687.1	RefSeq	exon	3344	3418	.	+	.	ID=exon-FKU95_mgt04-1;Parent=rna-FKU95_mgt04;Dbxref=GeneID:40493461;gbkey=tRNA;gene=trnM(cat);locus_tag=FKU95_mgt04;product=tRNA-Met
+NC_042687.1	RefSeq	gene	3426	4271	.	+	.	ID=gene-FKU95_mgr02;Dbxref=GeneID:40493462;Name=rrnS;gbkey=Gene;gene=rrnS;gene_biotype=rRNA;locus_tag=FKU95_mgr02
+NC_042687.1	RefSeq	rRNA	3426	4271	.	+	.	ID=rna-FKU95_mgr02;Parent=gene-FKU95_mgr02;Dbxref=GeneID:40493462;gbkey=rRNA;gene=rrnS;locus_tag=FKU95_mgr02;product=12S ribosomal RNA
+NC_042687.1	RefSeq	exon	3426	4271	.	+	.	ID=exon-FKU95_mgr02-1;Parent=rna-FKU95_mgr02;Dbxref=GeneID:40493462;gbkey=rRNA;gene=rrnS;locus_tag=FKU95_mgr02;product=12S ribosomal RNA
+NC_042687.1	RefSeq	gene	4271	4337	.	+	.	ID=gene-FKU95_mgt05;Dbxref=GeneID:40493457;Name=trnV(tac);gbkey=Gene;gene=trnV(tac);gene_biotype=tRNA;locus_tag=FKU95_mgt05
+NC_042687.1	RefSeq	tRNA	4271	4337	.	+	.	ID=rna-FKU95_mgt05;Parent=gene-FKU95_mgt05;Dbxref=GeneID:40493457;gbkey=tRNA;gene=trnV(tac);locus_tag=FKU95_mgt05;product=tRNA-Val
+NC_042687.1	RefSeq	exon	4271	4337	.	+	.	ID=exon-FKU95_mgt05-1;Parent=rna-FKU95_mgt05;Dbxref=GeneID:40493457;gbkey=tRNA;gene=trnV(tac);locus_tag=FKU95_mgt05;product=tRNA-Val
+NC_042687.1	RefSeq	gene	4338	5594	.	+	.	ID=gene-FKU95_mgr01;Dbxref=GeneID:40493463;Name=rrnL;gbkey=Gene;gene=rrnL;gene_biotype=rRNA;locus_tag=FKU95_mgr01
+NC_042687.1	RefSeq	rRNA	4338	5594	.	+	.	ID=rna-FKU95_mgr01;Parent=gene-FKU95_mgr01;Dbxref=GeneID:40493463;gbkey=rRNA;gene=rrnL;locus_tag=FKU95_mgr01;product=16S ribosomal RNA
+NC_042687.1	RefSeq	exon	4338	5594	.	+	.	ID=exon-FKU95_mgr01-1;Parent=rna-FKU95_mgr01;Dbxref=GeneID:40493463;gbkey=rRNA;gene=rrnL;locus_tag=FKU95_mgr01;product=16S ribosomal RNA
+NC_042687.1	RefSeq	gene	5595	5659	.	+	.	ID=gene-FKU95_mgt06;Dbxref=GeneID:40493458;Name=trnL(tag);gbkey=Gene;gene=trnL(tag);gene_biotype=tRNA;locus_tag=FKU95_mgt06
+NC_042687.1	RefSeq	tRNA	5595	5659	.	+	.	ID=rna-FKU95_mgt06;Parent=gene-FKU95_mgt06;Dbxref=GeneID:40493458;gbkey=tRNA;gene=trnL(tag);locus_tag=FKU95_mgt06;product=tRNA-Leu
+NC_042687.1	RefSeq	exon	5595	5659	.	+	.	ID=exon-FKU95_mgt06-1;Parent=rna-FKU95_mgt06;Dbxref=GeneID:40493458;gbkey=tRNA;gene=trnL(tag);locus_tag=FKU95_mgt06;product=tRNA-Leu
+NC_042687.1	RefSeq	gene	5683	5748	.	+	.	ID=gene-FKU95_mgt07;Dbxref=GeneID:40493464;Name=trnL(taa);gbkey=Gene;gene=trnL(taa);gene_biotype=tRNA;locus_tag=FKU95_mgt07
+NC_042687.1	RefSeq	tRNA	5683	5748	.	+	.	ID=rna-FKU95_mgt07;Parent=gene-FKU95_mgt07;Dbxref=GeneID:40493464;gbkey=tRNA;gene=trnL(taa);locus_tag=FKU95_mgt07;product=tRNA-Leu
+NC_042687.1	RefSeq	exon	5683	5748	.	+	.	ID=exon-FKU95_mgt07-1;Parent=rna-FKU95_mgt07;Dbxref=GeneID:40493464;gbkey=tRNA;gene=trnL(taa);locus_tag=FKU95_mgt07;product=tRNA-Leu
+NC_042687.1	RefSeq	gene	5750	6683	.	+	.	ID=gene-FKU95_mgp10;Dbxref=GeneID:40493465;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=FKU95_mgp10
+NC_042687.1	RefSeq	CDS	5750	6683	.	+	0	ID=cds-YP_009648861.1;Parent=gene-FKU95_mgp10;Dbxref=GenBank:YP_009648861.1,GeneID:40493465;Name=YP_009648861.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=FKU95_mgp10;product=NADH dehydrogenase subunit 1;protein_id=YP_009648861.1;transl_except=(pos:6683..6683%2Caa:TERM);transl_table=5
+NC_042687.1	RefSeq	gene	6683	6750	.	+	.	ID=gene-FKU95_mgt08;Dbxref=GeneID:40493449;Name=trnY(gta);gbkey=Gene;gene=trnY(gta);gene_biotype=tRNA;locus_tag=FKU95_mgt08
+NC_042687.1	RefSeq	tRNA	6683	6750	.	+	.	ID=rna-FKU95_mgt08;Parent=gene-FKU95_mgt08;Dbxref=GeneID:40493449;gbkey=tRNA;gene=trnY(gta);locus_tag=FKU95_mgt08;product=tRNA-Tyr
+NC_042687.1	RefSeq	exon	6683	6750	.	+	.	ID=exon-FKU95_mgt08-1;Parent=rna-FKU95_mgt08;Dbxref=GeneID:40493449;gbkey=tRNA;gene=trnY(gta);locus_tag=FKU95_mgt08;product=tRNA-Tyr
+NC_042687.1	RefSeq	gene	6753	6817	.	-	.	ID=gene-FKU95_mgt09;Dbxref=GeneID:40493466;Name=trnP(tgg);gbkey=Gene;gene=trnP(tgg);gene_biotype=tRNA;locus_tag=FKU95_mgt09
+NC_042687.1	RefSeq	tRNA	6753	6817	.	-	.	ID=rna-FKU95_mgt09;Parent=gene-FKU95_mgt09;Dbxref=GeneID:40493466;gbkey=tRNA;gene=trnP(tgg);locus_tag=FKU95_mgt09;product=tRNA-Pro
+NC_042687.1	RefSeq	exon	6753	6817	.	-	.	ID=exon-FKU95_mgt09-1;Parent=rna-FKU95_mgt09;Dbxref=GeneID:40493466;gbkey=tRNA;gene=trnP(tgg);locus_tag=FKU95_mgt09;product=tRNA-Pro
+NC_042687.1	RefSeq	gene	6825	7283	.	+	.	ID=gene-FKU95_mgp09;Dbxref=GeneID:40493467;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=FKU95_mgp09
+NC_042687.1	RefSeq	CDS	6825	7283	.	+	0	ID=cds-YP_009648862.1;Parent=gene-FKU95_mgp09;Dbxref=GenBank:YP_009648862.1,GeneID:40493467;Name=YP_009648862.1;gbkey=CDS;gene=ND6;locus_tag=FKU95_mgp09;product=NADH dehydrogenase subunit 6;protein_id=YP_009648862.1;transl_table=5
+NC_042687.1	RefSeq	gene	7299	8438	.	+	.	ID=gene-FKU95_mgp08;Dbxref=GeneID:40493450;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=FKU95_mgp08
+NC_042687.1	RefSeq	CDS	7299	8438	.	+	0	ID=cds-YP_009648863.1;Parent=gene-FKU95_mgp08;Dbxref=GenBank:YP_009648863.1,GeneID:40493450;Name=YP_009648863.1;gbkey=CDS;gene=CYTB;locus_tag=FKU95_mgp08;product=cytochrome b;protein_id=YP_009648863.1;transl_table=5
+NC_042687.1	RefSeq	gene	8437	8504	.	+	.	ID=gene-FKU95_mgt10;Dbxref=GeneID:40493451;Name=trnS(tga);gbkey=Gene;gene=trnS(tga);gene_biotype=tRNA;locus_tag=FKU95_mgt10
+NC_042687.1	RefSeq	tRNA	8437	8504	.	+	.	ID=rna-FKU95_mgt10;Parent=gene-FKU95_mgt10;Dbxref=GeneID:40493451;gbkey=tRNA;gene=trnS(tga);locus_tag=FKU95_mgt10;product=tRNA-Ser
+NC_042687.1	RefSeq	exon	8437	8504	.	+	.	ID=exon-FKU95_mgt10-1;Parent=rna-FKU95_mgt10;Dbxref=GeneID:40493451;gbkey=tRNA;gene=trnS(tga);locus_tag=FKU95_mgt10;product=tRNA-Ser
+NC_042687.1	RefSeq	gene	8505	8570	.	-	.	ID=gene-FKU95_mgt11;Dbxref=GeneID:40493468;Name=trnS(tga);gbkey=Gene;gene=trnS(tga);gene_biotype=tRNA;locus_tag=FKU95_mgt11
+NC_042687.1	RefSeq	tRNA	8505	8570	.	-	.	ID=rna-FKU95_mgt11;Parent=gene-FKU95_mgt11;Dbxref=GeneID:40493468;gbkey=tRNA;gene=trnS(tga);locus_tag=FKU95_mgt11;product=tRNA-Thr
+NC_042687.1	RefSeq	exon	8505	8570	.	-	.	ID=exon-FKU95_mgt11-1;Parent=rna-FKU95_mgt11;Dbxref=GeneID:40493468;gbkey=tRNA;gene=trnS(tga);locus_tag=FKU95_mgt11;product=tRNA-Thr
+NC_042687.1	RefSeq	gene	8577	8882	.	+	.	ID=gene-FKU95_mgp07;Dbxref=GeneID:40493469;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=FKU95_mgp07
+NC_042687.1	RefSeq	CDS	8577	8882	.	+	0	ID=cds-YP_009648864.1;Parent=gene-FKU95_mgp07;Dbxref=GenBank:YP_009648864.1,GeneID:40493469;Name=YP_009648864.1;gbkey=CDS;gene=ND4L;locus_tag=FKU95_mgp07;product=NADH dehydrogenase subunit 4L;protein_id=YP_009648864.1;transl_table=5
+NC_042687.1	RefSeq	gene	8876	10228	.	+	.	ID=gene-FKU95_mgp06;Dbxref=GeneID:40493452;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=FKU95_mgp06
+NC_042687.1	RefSeq	CDS	8876	10228	.	+	0	ID=cds-YP_009648865.1;Parent=gene-FKU95_mgp06;Dbxref=GenBank:YP_009648865.1,GeneID:40493452;Name=YP_009648865.1;gbkey=CDS;gene=ND4;locus_tag=FKU95_mgp06;product=NADH dehydrogenase subunit 4;protein_id=YP_009648865.1;transl_table=5
+NC_042687.1	RefSeq	gene	10231	10297	.	+	.	ID=gene-FKU95_mgt12;Dbxref=GeneID:40493453;Name=trnH(gtg);gbkey=Gene;gene=trnH(gtg);gene_biotype=tRNA;locus_tag=FKU95_mgt12
+NC_042687.1	RefSeq	tRNA	10231	10297	.	+	.	ID=rna-FKU95_mgt12;Parent=gene-FKU95_mgt12;Dbxref=GeneID:40493453;gbkey=tRNA;gene=trnH(gtg);locus_tag=FKU95_mgt12;product=tRNA-His
+NC_042687.1	RefSeq	exon	10231	10297	.	+	.	ID=exon-FKU95_mgt12-1;Parent=rna-FKU95_mgt12;Dbxref=GeneID:40493453;gbkey=tRNA;gene=trnH(gtg);locus_tag=FKU95_mgt12;product=tRNA-His
+NC_042687.1	RefSeq	gene	10301	12038	.	+	.	ID=gene-FKU95_mgp05;Dbxref=GeneID:40493470;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=FKU95_mgp05
+NC_042687.1	RefSeq	CDS	10301	12038	.	+	0	ID=cds-YP_009648866.1;Parent=gene-FKU95_mgp05;Dbxref=GenBank:YP_009648866.1,GeneID:40493470;Name=YP_009648866.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND5;locus_tag=FKU95_mgp05;product=NADH dehydrogenase subunit 5;protein_id=YP_009648866.1;transl_except=(pos:12038..12038%2Caa:TERM);transl_table=5
+NC_042687.1	RefSeq	gene	12039	12104	.	+	.	ID=gene-FKU95_mgt13;Dbxref=GeneID:40493454;Name=trnE(ttc);gbkey=Gene;gene=trnE(ttc);gene_biotype=tRNA;locus_tag=FKU95_mgt13
+NC_042687.1	RefSeq	tRNA	12039	12104	.	+	.	ID=rna-FKU95_mgt13;Parent=gene-FKU95_mgt13;Dbxref=GeneID:40493454;gbkey=tRNA;gene=trnE(ttc);locus_tag=FKU95_mgt13;product=tRNA-Glu
+NC_042687.1	RefSeq	exon	12039	12104	.	+	.	ID=exon-FKU95_mgt13-1;Parent=rna-FKU95_mgt13;Dbxref=GeneID:40493454;gbkey=tRNA;gene=trnE(ttc);locus_tag=FKU95_mgt13;product=tRNA-Glu
+NC_042687.1	RefSeq	gene	12107	12174	.	+	.	ID=gene-FKU95_mgt14;Dbxref=GeneID:40493471;Name=trnG(tcc);gbkey=Gene;gene=trnG(tcc);gene_biotype=tRNA;locus_tag=FKU95_mgt14
+NC_042687.1	RefSeq	tRNA	12107	12174	.	+	.	ID=rna-FKU95_mgt14;Parent=gene-FKU95_mgt14;Dbxref=GeneID:40493471;gbkey=tRNA;gene=trnG(tcc);locus_tag=FKU95_mgt14;product=tRNA-Gly
+NC_042687.1	RefSeq	exon	12107	12174	.	+	.	ID=exon-FKU95_mgt14-1;Parent=rna-FKU95_mgt14;Dbxref=GeneID:40493471;gbkey=tRNA;gene=trnG(tcc);locus_tag=FKU95_mgt14;product=tRNA-Gly
+NC_042687.1	RefSeq	gene	12174	12953	.	+	.	ID=gene-FKU95_mgp04;Dbxref=GeneID:40493472;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=FKU95_mgp04
+NC_042687.1	RefSeq	CDS	12174	12953	.	+	0	ID=cds-YP_009648867.1;Parent=gene-FKU95_mgp04;Dbxref=GenBank:YP_009648867.1,GeneID:40493472;Name=YP_009648867.1;gbkey=CDS;gene=COX3;locus_tag=FKU95_mgp04;product=cytochrome c oxidase subunit III;protein_id=YP_009648867.1;transl_table=5
+NC_042687.1	RefSeq	gene	12962	13022	.	+	.	ID=gene-FKU95_mgt15;Dbxref=GeneID:40493455;Name=trnK;gbkey=Gene;gene=trnK;gene_biotype=tRNA;locus_tag=FKU95_mgt15
+NC_042687.1	RefSeq	tRNA	12962	13022	.	+	.	ID=rna-FKU95_mgt15;Parent=gene-FKU95_mgt15;Dbxref=GeneID:40493455;gbkey=tRNA;gene=trnK;locus_tag=FKU95_mgt15;product=tRNA-Lys
+NC_042687.1	RefSeq	exon	12962	13022	.	+	.	ID=exon-FKU95_mgt15-1;Parent=rna-FKU95_mgt15;Dbxref=GeneID:40493455;gbkey=tRNA;gene=trnK;locus_tag=FKU95_mgt15;product=tRNA-Lys
+NC_042687.1	RefSeq	gene	13089	13149	.	+	.	ID=gene-FKU95_mgt16;Dbxref=GeneID:40493473;Name=trnK(ttt);gbkey=Gene;gene=trnK(ttt);gene_biotype=tRNA;locus_tag=FKU95_mgt16
+NC_042687.1	RefSeq	tRNA	13089	13149	.	+	.	ID=rna-FKU95_mgt16;Parent=gene-FKU95_mgt16;Dbxref=GeneID:40493473;gbkey=tRNA;gene=trnK(ttt);locus_tag=FKU95_mgt16;product=tRNA-Lys
+NC_042687.1	RefSeq	exon	13089	13149	.	+	.	ID=exon-FKU95_mgt16-1;Parent=rna-FKU95_mgt16;Dbxref=GeneID:40493473;gbkey=tRNA;gene=trnK(ttt);locus_tag=FKU95_mgt16;product=tRNA-Lys
+NC_042687.1	RefSeq	gene	13149	13213	.	+	.	ID=gene-FKU95_mgt17;Dbxref=GeneID:40493474;Name=trnA(tgc);gbkey=Gene;gene=trnA(tgc);gene_biotype=tRNA;locus_tag=FKU95_mgt17
+NC_042687.1	RefSeq	tRNA	13149	13213	.	+	.	ID=rna-FKU95_mgt17;Parent=gene-FKU95_mgt17;Dbxref=GeneID:40493474;gbkey=tRNA;gene=trnA(tgc);locus_tag=FKU95_mgt17;product=tRNA-Ala
+NC_042687.1	RefSeq	exon	13149	13213	.	+	.	ID=exon-FKU95_mgt17-1;Parent=rna-FKU95_mgt17;Dbxref=GeneID:40493474;gbkey=tRNA;gene=trnA(tgc);locus_tag=FKU95_mgt17;product=tRNA-Ala
+NC_042687.1	RefSeq	gene	13216	13279	.	+	.	ID=gene-FKU95_mgt18;Dbxref=GeneID:40493475;Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA;locus_tag=FKU95_mgt18
+NC_042687.1	RefSeq	tRNA	13216	13279	.	+	.	ID=rna-FKU95_mgt18;Parent=gene-FKU95_mgt18;Dbxref=GeneID:40493475;gbkey=tRNA;gene=trnF(gaa);locus_tag=FKU95_mgt18;product=tRNA-Phe
+NC_042687.1	RefSeq	exon	13216	13279	.	+	.	ID=exon-FKU95_mgt18-1;Parent=rna-FKU95_mgt18;Dbxref=GeneID:40493475;gbkey=tRNA;gene=trnF(gaa);locus_tag=FKU95_mgt18;product=tRNA-Phe
+NC_042687.1	RefSeq	gene	13289	13358	.	+	.	ID=gene-FKU95_mgt19;Dbxref=GeneID:40493476;Name=trnQ(ttg);gbkey=Gene;gene=trnQ(ttg);gene_biotype=tRNA;locus_tag=FKU95_mgt19
+NC_042687.1	RefSeq	tRNA	13289	13358	.	+	.	ID=rna-FKU95_mgt19;Parent=gene-FKU95_mgt19;Dbxref=GeneID:40493476;gbkey=tRNA;gene=trnQ(ttg);locus_tag=FKU95_mgt19;product=tRNA-Gln
+NC_042687.1	RefSeq	exon	13289	13358	.	+	.	ID=exon-FKU95_mgt19-1;Parent=rna-FKU95_mgt19;Dbxref=GeneID:40493476;gbkey=tRNA;gene=trnQ(ttg);locus_tag=FKU95_mgt19;product=tRNA-Gln
+NC_042687.1	RefSeq	gene	13368	13433	.	+	.	ID=gene-FKU95_mgt20;Dbxref=GeneID:40493477;Name=trnR(tcg);gbkey=Gene;gene=trnR(tcg);gene_biotype=tRNA;locus_tag=FKU95_mgt20
+NC_042687.1	RefSeq	tRNA	13368	13433	.	+	.	ID=rna-FKU95_mgt20;Parent=gene-FKU95_mgt20;Dbxref=GeneID:40493477;gbkey=tRNA;gene=trnR(tcg);locus_tag=FKU95_mgt20;product=tRNA-Arg
+NC_042687.1	RefSeq	exon	13368	13433	.	+	.	ID=exon-FKU95_mgt20-1;Parent=rna-FKU95_mgt20;Dbxref=GeneID:40493477;gbkey=tRNA;gene=trnR(tcg);locus_tag=FKU95_mgt20;product=tRNA-Arg
+NC_042687.1	RefSeq	gene	13447	13516	.	+	.	ID=gene-FKU95_mgt21;Dbxref=GeneID:40493478;Name=trnN(gtt);gbkey=Gene;gene=trnN(gtt);gene_biotype=tRNA;locus_tag=FKU95_mgt21
+NC_042687.1	RefSeq	tRNA	13447	13516	.	+	.	ID=rna-FKU95_mgt21;Parent=gene-FKU95_mgt21;Dbxref=GeneID:40493478;gbkey=tRNA;gene=trnN(gtt);locus_tag=FKU95_mgt21;product=tRNA-Asn
+NC_042687.1	RefSeq	exon	13447	13516	.	+	.	ID=exon-FKU95_mgt21-1;Parent=rna-FKU95_mgt21;Dbxref=GeneID:40493478;gbkey=tRNA;gene=trnN(gtt);locus_tag=FKU95_mgt21;product=tRNA-Asn
+NC_042687.1	RefSeq	gene	13517	13584	.	+	.	ID=gene-FKU95_mgt22;Dbxref=GeneID:40493479;Name=trnI(gat);gbkey=Gene;gene=trnI(gat);gene_biotype=tRNA;locus_tag=FKU95_mgt22
+NC_042687.1	RefSeq	tRNA	13517	13584	.	+	.	ID=rna-FKU95_mgt22;Parent=gene-FKU95_mgt22;Dbxref=GeneID:40493479;gbkey=tRNA;gene=trnI(gat);locus_tag=FKU95_mgt22;product=tRNA-Ile
+NC_042687.1	RefSeq	exon	13517	13584	.	+	.	ID=exon-FKU95_mgt22-1;Parent=rna-FKU95_mgt22;Dbxref=GeneID:40493479;gbkey=tRNA;gene=trnI(gat);locus_tag=FKU95_mgt22;product=tRNA-Ile
+NC_042687.1	RefSeq	gene	13596	13967	.	+	.	ID=gene-FKU95_mgp03;Dbxref=GeneID:40493480;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=FKU95_mgp03
+NC_042687.1	RefSeq	CDS	13596	13967	.	+	0	ID=cds-YP_009648868.1;Parent=gene-FKU95_mgp03;Dbxref=GenBank:YP_009648868.1,GeneID:40493480;Name=YP_009648868.1;gbkey=CDS;gene=ND3;locus_tag=FKU95_mgp03;product=NADH dehydrogenase subunit 3;protein_id=YP_009648868.1;transl_table=5
+NC_042687.1	RefSeq	gene	14103	14172	.	+	.	ID=gene-FKU95_mgt23;Dbxref=GeneID:40493456;Name=trnS(tct);gbkey=Gene;gene=trnS(tct);gene_biotype=tRNA;locus_tag=FKU95_mgt23
+NC_042687.1	RefSeq	tRNA	14103	14172	.	+	.	ID=rna-FKU95_mgt23;Parent=gene-FKU95_mgt23;Dbxref=GeneID:40493456;gbkey=tRNA;gene=trnS(tct);locus_tag=FKU95_mgt23;product=tRNA-Ser
+NC_042687.1	RefSeq	exon	14103	14172	.	+	.	ID=exon-FKU95_mgt23-1;Parent=rna-FKU95_mgt23;Dbxref=GeneID:40493456;gbkey=tRNA;gene=trnS(tct);locus_tag=FKU95_mgt23;product=tRNA-Ser
+NC_042687.1	RefSeq	gene	14160	15176	.	+	.	ID=gene-FKU95_mgp02;Dbxref=GeneID:40493481;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=FKU95_mgp02
+NC_042687.1	RefSeq	CDS	14160	15176	.	+	0	ID=cds-YP_009648869.1;Parent=gene-FKU95_mgp02;Dbxref=GenBank:YP_009648869.1,GeneID:40493481;Name=YP_009648869.1;gbkey=CDS;gene=ND2;locus_tag=FKU95_mgp02;product=NADH dehydrogenase subunit 2;protein_id=YP_009648869.1;transl_table=5

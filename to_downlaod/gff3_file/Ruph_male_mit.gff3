@@ -1,0 +1,84 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT757749.1 1 21679
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=129788
+MT757749.1	Genbank	region	1	21679	.	+	.	ID=MT757749.1:1..21679;Dbxref=taxon:129788;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;isolate=M-type;mol_type=genomic DNA
+MT757749.1	Genbank	tRNA	1629	1693	.	+	.	ID=rna-MT757749.1:1629..1693;gbkey=tRNA;product=tRNA-Leu
+MT757749.1	Genbank	exon	1629	1693	.	+	.	ID=exon-MT757749.1:1629..1693-1;Parent=rna-MT757749.1:1629..1693;gbkey=tRNA;product=tRNA-Leu
+MT757749.1	Genbank	gene	1693	2616	.	+	.	ID=gene-nad1;Name=nad1;gbkey=Gene;gene=nad1;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	1693	2616	.	+	0	ID=cds-QTF98753.1;Parent=gene-nad1;Dbxref=NCBI_GP:QTF98753.1;Name=QTF98753.1;gbkey=CDS;gene=nad1;product=NADH dehydrogenase subunit 1;protein_id=QTF98753.1;transl_table=5
+MT757749.1	Genbank	gene	2620	3651	.	+	.	ID=gene-nad2;Name=nad2;gbkey=Gene;gene=nad2;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	2620	3651	.	+	0	ID=cds-QTF98754.1;Parent=gene-nad2;Dbxref=NCBI_GP:QTF98754.1;Name=QTF98754.1;gbkey=CDS;gene=nad2;product=NADH dehydrogenase subunit 2;protein_id=QTF98754.1;transl_table=5
+MT757749.1	Genbank	gene	4052	4570	.	+	.	ID=gene-Morf21;Name=Morf21;gbkey=Gene;gene=Morf21;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	4052	4570	.	+	0	ID=cds-QTF98755.1;Parent=gene-Morf21;Dbxref=NCBI_GP:QTF98755.1;Name=QTF98755.1;Note=Unknown protein function;gbkey=CDS;gene=Morf21;product=Morf21;protein_id=QTF98755.1;transl_table=5
+MT757749.1	Genbank	gene	4608	4898	.	+	.	ID=gene-nad4l;Name=nad4l;gbkey=Gene;gene=nad4l;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	4608	4898	.	+	0	ID=cds-QTF98756.1;Parent=gene-nad4l;Dbxref=NCBI_GP:QTF98756.1;Name=QTF98756.1;gbkey=CDS;gene=nad4l;product=NADH dehydrogenase subunit 4L;protein_id=QTF98756.1;transl_table=5
+MT757749.1	Genbank	tRNA	8642	8706	.	+	.	ID=rna-MT757749.1:8642..8706;gbkey=tRNA;product=tRNA-Ile
+MT757749.1	Genbank	exon	8642	8706	.	+	.	ID=exon-MT757749.1:8642..8706-1;Parent=rna-MT757749.1:8642..8706;gbkey=tRNA;product=tRNA-Ile
+MT757749.1	Genbank	gene	8764	10311	.	+	.	ID=gene-cox2;Name=cox2;gbkey=Gene;gene=cox2;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	8764	10311	.	+	0	ID=cds-QTF98757.1;Parent=gene-cox2;Dbxref=NCBI_GP:QTF98757.1;Name=QTF98757.1;gbkey=CDS;gene=cox2;product=cytochrome c oxidase subunit II;protein_id=QTF98757.1;transl_table=5
+MT757749.1	Genbank	tRNA	10361	10429	.	+	.	ID=rna-MT757749.1:10361..10429;gbkey=tRNA;product=tRNA-Pro
+MT757749.1	Genbank	exon	10361	10429	.	+	.	ID=exon-MT757749.1:10361..10429-1;Parent=rna-MT757749.1:10361..10429;gbkey=tRNA;product=tRNA-Pro
+MT757749.1	Genbank	gene	10435	11757	.	+	.	ID=gene-cob;Name=cob;gbkey=Gene;gene=cob;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	10435	11757	.	+	0	ID=cds-QTF98758.1;Parent=gene-cob;Dbxref=NCBI_GP:QTF98758.1;Name=QTF98758.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=QTF98758.1;transl_table=5
+MT757749.1	Genbank	rRNA	11758	13269	.	+	.	ID=rna-MT757749.1:11758..13269;gbkey=rRNA;product=16S ribosomal RNA
+MT757749.1	Genbank	exon	11758	13269	.	+	.	ID=exon-MT757749.1:11758..13269-1;Parent=rna-MT757749.1:11758..13269;gbkey=rRNA;product=16S ribosomal RNA
+MT757749.1	Genbank	gene	13270	13395	.	+	.	ID=gene-atp8;Name=atp8;gbkey=Gene;gene=atp8;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	13270	13395	.	+	0	ID=cds-QTF98759.1;Parent=gene-atp8;Dbxref=NCBI_GP:QTF98759.1;Name=QTF98759.1;gbkey=CDS;gene=atp8;product=ATP synthase subunit 8;protein_id=QTF98759.1;transl_table=5
+MT757749.1	Genbank	gene	13401	14759	.	+	.	ID=gene-nad4;Name=nad4;gbkey=Gene;gene=nad4;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	13401	14759	.	+	0	ID=cds-QTF98760.1;Parent=gene-nad4;Dbxref=NCBI_GP:QTF98760.1;Name=QTF98760.1;gbkey=CDS;gene=nad4;product=NADH dehydrogenase subunit 4;protein_id=QTF98760.1;transl_table=5
+MT757749.1	Genbank	tRNA	14761	14819	.	+	.	ID=rna-MT757749.1:14761..14819;gbkey=tRNA;product=tRNA-His
+MT757749.1	Genbank	exon	14761	14819	.	+	.	ID=exon-MT757749.1:14761..14819-1;Parent=rna-MT757749.1:14761..14819;gbkey=tRNA;product=tRNA-His
+MT757749.1	Genbank	tRNA	14819	14882	.	+	.	ID=rna-MT757749.1:14819..14882;gbkey=tRNA;product=tRNA-Glu
+MT757749.1	Genbank	exon	14819	14882	.	+	.	ID=exon-MT757749.1:14819..14882-1;Parent=rna-MT757749.1:14819..14882;gbkey=tRNA;product=tRNA-Glu
+MT757749.1	Genbank	tRNA	14879	14945	.	+	.	ID=rna-MT757749.1:14879..14945;gbkey=tRNA;product=tRNA-Ser
+MT757749.1	Genbank	exon	14879	14945	.	+	.	ID=exon-MT757749.1:14879..14945-1;Parent=rna-MT757749.1:14879..14945;gbkey=tRNA;product=tRNA-Ser
+MT757749.1	Genbank	gene	14946	15782	.	+	.	ID=gene-atp6;Name=atp6;gbkey=Gene;gene=atp6;gene_biotype=other
+MT757749.1	Genbank	sequence_feature	14946	15782	.	+	.	ID=id-atp6;Note=similar to ATP synthase subunit 6;gbkey=misc_feature;gene=atp6
+MT757749.1	Genbank	gene	15805	16209	.	+	.	ID=gene-nad3;Name=nad3;gbkey=Gene;gene=nad3;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	15805	16209	.	+	0	ID=cds-QTF98761.1;Parent=gene-nad3;Dbxref=NCBI_GP:QTF98761.1;Name=QTF98761.1;gbkey=CDS;gene=nad3;product=NADH dehydrogenase subunit 3;protein_id=QTF98761.1;transl_table=5
+MT757749.1	Genbank	gene	16310	17932	.	+	.	ID=gene-nad5;Name=nad5;gbkey=Gene;gene=nad5;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	16310	17932	.	+	0	ID=cds-QTF98762.1;Parent=gene-nad5;Dbxref=NCBI_GP:QTF98762.1;Name=QTF98762.1;gbkey=CDS;gene=nad5;product=NADH dehydrogenase subunit 5;protein_id=QTF98762.1;transl_table=5
+MT757749.1	Genbank	tRNA	17946	18012	.	+	.	ID=rna-MT757749.1:17946..18012;gbkey=tRNA;product=tRNA-Tyr
+MT757749.1	Genbank	exon	17946	18012	.	+	.	ID=exon-MT757749.1:17946..18012-1;Parent=rna-MT757749.1:17946..18012;gbkey=tRNA;product=tRNA-Tyr
+MT757749.1	Genbank	tRNA	18014	18078	.	+	.	ID=rna-MT757749.1:18014..18078;gbkey=tRNA;product=tRNA-Met
+MT757749.1	Genbank	exon	18014	18078	.	+	.	ID=exon-MT757749.1:18014..18078-1;Parent=rna-MT757749.1:18014..18078;gbkey=tRNA;product=tRNA-Met
+MT757749.1	Genbank	tRNA	18079	18148	.	+	.	ID=rna-MT757749.1:18079..18148;gbkey=tRNA;product=tRNA-Met
+MT757749.1	Genbank	exon	18079	18148	.	+	.	ID=exon-MT757749.1:18079..18148-1;Parent=rna-MT757749.1:18079..18148;gbkey=tRNA;product=tRNA-Met
+MT757749.1	Genbank	tRNA	18158	18221	.	+	.	ID=rna-MT757749.1:18158..18221;gbkey=tRNA;product=tRNA-Asp
+MT757749.1	Genbank	exon	18158	18221	.	+	.	ID=exon-MT757749.1:18158..18221-1;Parent=rna-MT757749.1:18158..18221;gbkey=tRNA;product=tRNA-Asp
+MT757749.1	Genbank	gene	18285	18827	.	+	.	ID=gene-nad6;Name=nad6;gbkey=Gene;gene=nad6;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	18285	18827	.	+	0	ID=cds-QTF98763.1;Parent=gene-nad6;Dbxref=NCBI_GP:QTF98763.1;Name=QTF98763.1;gbkey=CDS;gene=nad6;product=NADH dehydrogenase subunit 6;protein_id=QTF98763.1;transl_table=5
+MT757749.1	Genbank	tRNA	18834	18899	.	+	.	ID=rna-MT757749.1:18834..18899;gbkey=tRNA;product=tRNA-Lys
+MT757749.1	Genbank	exon	18834	18899	.	+	.	ID=exon-MT757749.1:18834..18899-1;Parent=rna-MT757749.1:18834..18899;gbkey=tRNA;product=tRNA-Lys
+MT757749.1	Genbank	tRNA	18898	18963	.	+	.	ID=rna-MT757749.1:18898..18963;gbkey=tRNA;product=tRNA-Val
+MT757749.1	Genbank	exon	18898	18963	.	+	.	ID=exon-MT757749.1:18898..18963-1;Parent=rna-MT757749.1:18898..18963;gbkey=tRNA;product=tRNA-Val
+MT757749.1	Genbank	tRNA	18965	19031	.	+	.	ID=rna-MT757749.1:18965..19031;gbkey=tRNA;product=tRNA-Phe
+MT757749.1	Genbank	exon	18965	19031	.	+	.	ID=exon-MT757749.1:18965..19031-1;Parent=rna-MT757749.1:18965..19031;gbkey=tRNA;product=tRNA-Phe
+MT757749.1	Genbank	tRNA	19034	19096	.	+	.	ID=rna-MT757749.1:19034..19096;gbkey=tRNA;product=tRNA-Trp
+MT757749.1	Genbank	exon	19034	19096	.	+	.	ID=exon-MT757749.1:19034..19096-1;Parent=rna-MT757749.1:19034..19096;gbkey=tRNA;product=tRNA-Trp
+MT757749.1	Genbank	tRNA	19096	19158	.	+	.	ID=rna-MT757749.1:19096..19158;gbkey=tRNA;product=tRNA-Arg
+MT757749.1	Genbank	exon	19096	19158	.	+	.	ID=exon-MT757749.1:19096..19158-1;Parent=rna-MT757749.1:19096..19158;gbkey=tRNA;product=tRNA-Arg
+MT757749.1	Genbank	tRNA	19159	19222	.	+	.	ID=rna-MT757749.1:19159..19222;gbkey=tRNA;product=tRNA-Leu
+MT757749.1	Genbank	exon	19159	19222	.	+	.	ID=exon-MT757749.1:19159..19222-1;Parent=rna-MT757749.1:19159..19222;gbkey=tRNA;product=tRNA-Leu
+MT757749.1	Genbank	tRNA	19221	19282	.	+	.	ID=rna-MT757749.1:19221..19282;gbkey=tRNA;product=tRNA-Gly
+MT757749.1	Genbank	exon	19221	19282	.	+	.	ID=exon-MT757749.1:19221..19282-1;Parent=rna-MT757749.1:19221..19282;gbkey=tRNA;product=tRNA-Gly
+MT757749.1	Genbank	tRNA	19280	19347	.	+	.	ID=rna-MT757749.1:19280..19347;gbkey=tRNA;product=tRNA-Gln
+MT757749.1	Genbank	exon	19280	19347	.	+	.	ID=exon-MT757749.1:19280..19347-1;Parent=rna-MT757749.1:19280..19347;gbkey=tRNA;product=tRNA-Gln
+MT757749.1	Genbank	tRNA	19350	19413	.	+	.	ID=rna-MT757749.1:19350..19413;gbkey=tRNA;product=tRNA-Asn
+MT757749.1	Genbank	exon	19350	19413	.	+	.	ID=exon-MT757749.1:19350..19413-1;Parent=rna-MT757749.1:19350..19413;gbkey=tRNA;product=tRNA-Asn
+MT757749.1	Genbank	tRNA	19412	19474	.	+	.	ID=rna-MT757749.1:19412..19474;gbkey=tRNA;product=tRNA-Thr
+MT757749.1	Genbank	exon	19412	19474	.	+	.	ID=exon-MT757749.1:19412..19474-1;Parent=rna-MT757749.1:19412..19474;gbkey=tRNA;product=tRNA-Thr
+MT757749.1	Genbank	tRNA	19474	19534	.	+	.	ID=rna-MT757749.1:19474..19534;gbkey=tRNA;product=tRNA-Cys
+MT757749.1	Genbank	exon	19474	19534	.	+	.	ID=exon-MT757749.1:19474..19534-1;Parent=rna-MT757749.1:19474..19534;gbkey=tRNA;product=tRNA-Cys
+MT757749.1	Genbank	tRNA	19540	19603	.	+	.	ID=rna-MT757749.1:19540..19603;gbkey=tRNA;product=tRNA-Ala
+MT757749.1	Genbank	exon	19540	19603	.	+	.	ID=exon-MT757749.1:19540..19603-1;Parent=rna-MT757749.1:19540..19603;gbkey=tRNA;product=tRNA-Ala
+MT757749.1	Genbank	tRNA	19604	19670	.	+	.	ID=rna-MT757749.1:19604..19670;gbkey=tRNA;product=tRNA-Ser
+MT757749.1	Genbank	exon	19604	19670	.	+	.	ID=exon-MT757749.1:19604..19670-1;Parent=rna-MT757749.1:19604..19670;gbkey=tRNA;product=tRNA-Ser
+MT757749.1	Genbank	gene	19671	20564	.	+	.	ID=gene-cox3;Name=cox3;gbkey=Gene;gene=cox3;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	19671	20564	.	+	0	ID=cds-QTF98764.1;Parent=gene-cox3;Dbxref=NCBI_GP:QTF98764.1;Name=QTF98764.1;gbkey=CDS;gene=cox3;product=cytochrome c oxidase subunit III;protein_id=QTF98764.1;transl_table=5
+MT757749.1	Genbank	rRNA	20565	21679	.	+	.	ID=rna-MT757749.1:20565..21679;gbkey=rRNA;product=12S ribosomal RNA
+MT757749.1	Genbank	exon	20565	21679	.	+	.	ID=exon-MT757749.1:20565..21679-1;Parent=rna-MT757749.1:20565..21679;gbkey=rRNA;product=12S ribosomal RNA
+MT757749.1	Genbank	gene	21623	23230	.	+	.	ID=gene-cox1;Name=cox1;gbkey=Gene;gene=cox1;gene_biotype=protein_coding
+MT757749.1	Genbank	CDS	21623	23230	.	+	0	ID=cds-QTF98752.1;Parent=gene-cox1;Dbxref=NCBI_GP:QTF98752.1;Name=QTF98752.1;gbkey=CDS;gene=cox1;product=cytochrome c oxidase subunit I;protein_id=QTF98752.1;transl_table=5

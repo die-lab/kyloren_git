@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_053756.1 1 16763
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1053555
+NC_053756.1	RefSeq	region	1	16763	.	+	.	ID=NC_053756.1:1..16763;Dbxref=taxon:1053555;Is_circular=true;Name=MT;altitude=708 m;country=Brazil: Abaete river basin;gb-synonym=Astyanax bimaculatus lacustris;gbkey=Src;genome=mitochondrion;lat-lon=20.123172222222 S 45.970891666667 W;mol_type=genomic DNA;sex=male;specimen-voucher=LAGEEVO - 3732;tissue-type=liver and heart
+NC_053756.1	RefSeq	gene	1	68	.	+	.	ID=gene-J1936_mgt01;Dbxref=GeneID:63368016;Name=J1936_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt01
+NC_053756.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-J1936_mgt01;Parent=gene-J1936_mgt01;Dbxref=GeneID:63368016;gbkey=tRNA;locus_tag=J1936_mgt01;product=tRNA-Phe
+NC_053756.1	RefSeq	exon	1	68	.	+	.	ID=exon-J1936_mgt01-1;Parent=rna-J1936_mgt01;Dbxref=GeneID:63368016;gbkey=tRNA;locus_tag=J1936_mgt01;product=tRNA-Phe
+NC_053756.1	RefSeq	gene	69	1014	.	+	.	ID=gene-J1936_mgr02;Dbxref=GeneID:63368017;Name=J1936_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=J1936_mgr02
+NC_053756.1	RefSeq	rRNA	69	1014	.	+	.	ID=rna-J1936_mgr02;Parent=gene-J1936_mgr02;Dbxref=GeneID:63368017;gbkey=rRNA;locus_tag=J1936_mgr02;product=12S ribosomal RNA
+NC_053756.1	RefSeq	exon	69	1014	.	+	.	ID=exon-J1936_mgr02-1;Parent=rna-J1936_mgr02;Dbxref=GeneID:63368017;gbkey=rRNA;locus_tag=J1936_mgr02;product=12S ribosomal RNA
+NC_053756.1	RefSeq	gene	1015	1086	.	+	.	ID=gene-J1936_mgt02;Dbxref=GeneID:63368018;Name=J1936_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt02
+NC_053756.1	RefSeq	tRNA	1015	1086	.	+	.	ID=rna-J1936_mgt02;Parent=gene-J1936_mgt02;Dbxref=GeneID:63368018;gbkey=tRNA;locus_tag=J1936_mgt02;product=tRNA-Val
+NC_053756.1	RefSeq	exon	1015	1086	.	+	.	ID=exon-J1936_mgt02-1;Parent=rna-J1936_mgt02;Dbxref=GeneID:63368018;gbkey=tRNA;locus_tag=J1936_mgt02;product=tRNA-Val
+NC_053756.1	RefSeq	gene	1087	2756	.	+	.	ID=gene-J1936_mgr01;Dbxref=GeneID:63368019;Name=J1936_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=J1936_mgr01
+NC_053756.1	RefSeq	rRNA	1087	2756	.	+	.	ID=rna-J1936_mgr01;Parent=gene-J1936_mgr01;Dbxref=GeneID:63368019;gbkey=rRNA;locus_tag=J1936_mgr01;product=16S ribosomal RNA
+NC_053756.1	RefSeq	exon	1087	2756	.	+	.	ID=exon-J1936_mgr01-1;Parent=rna-J1936_mgr01;Dbxref=GeneID:63368019;gbkey=rRNA;locus_tag=J1936_mgr01;product=16S ribosomal RNA
+NC_053756.1	RefSeq	gene	2757	2831	.	+	.	ID=gene-J1936_mgt03;Dbxref=GeneID:63368020;Name=J1936_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt03
+NC_053756.1	RefSeq	tRNA	2757	2831	.	+	.	ID=rna-J1936_mgt03;Parent=gene-J1936_mgt03;Dbxref=GeneID:63368020;codons=2%2C3;gbkey=tRNA;locus_tag=J1936_mgt03;product=tRNA-Leu
+NC_053756.1	RefSeq	exon	2757	2831	.	+	.	ID=exon-J1936_mgt03-1;Parent=rna-J1936_mgt03;Dbxref=GeneID:63368020;codons=2%2C3;gbkey=tRNA;locus_tag=J1936_mgt03;product=tRNA-Leu
+NC_053756.1	RefSeq	gene	2832	3803	.	+	.	ID=gene-J1936_mgp13;Dbxref=GeneID:63368021;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=J1936_mgp13
+NC_053756.1	RefSeq	CDS	2832	3803	.	+	0	ID=cds-YP_010026551.1;Parent=gene-J1936_mgp13;Dbxref=GenBank:YP_010026551.1,GeneID:63368021;Name=YP_010026551.1;gbkey=CDS;gene=ND1;locus_tag=J1936_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010026551.1;transl_table=2
+NC_053756.1	RefSeq	gene	3812	3883	.	+	.	ID=gene-J1936_mgt04;Dbxref=GeneID:63368003;Name=J1936_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt04
+NC_053756.1	RefSeq	tRNA	3812	3883	.	+	.	ID=rna-J1936_mgt04;Parent=gene-J1936_mgt04;Dbxref=GeneID:63368003;gbkey=tRNA;locus_tag=J1936_mgt04;product=tRNA-Ile
+NC_053756.1	RefSeq	exon	3812	3883	.	+	.	ID=exon-J1936_mgt04-1;Parent=rna-J1936_mgt04;Dbxref=GeneID:63368003;gbkey=tRNA;locus_tag=J1936_mgt04;product=tRNA-Ile
+NC_053756.1	RefSeq	gene	3882	3953	.	-	.	ID=gene-J1936_mgt05;Dbxref=GeneID:63368022;Name=J1936_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt05
+NC_053756.1	RefSeq	tRNA	3882	3953	.	-	.	ID=rna-J1936_mgt05;Parent=gene-J1936_mgt05;Dbxref=GeneID:63368022;gbkey=tRNA;locus_tag=J1936_mgt05;product=tRNA-Gln
+NC_053756.1	RefSeq	exon	3882	3953	.	-	.	ID=exon-J1936_mgt05-1;Parent=rna-J1936_mgt05;Dbxref=GeneID:63368022;gbkey=tRNA;locus_tag=J1936_mgt05;product=tRNA-Gln
+NC_053756.1	RefSeq	gene	3966	4035	.	+	.	ID=gene-J1936_mgt06;Dbxref=GeneID:63368023;Name=J1936_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt06
+NC_053756.1	RefSeq	tRNA	3966	4035	.	+	.	ID=rna-J1936_mgt06;Parent=gene-J1936_mgt06;Dbxref=GeneID:63368023;gbkey=tRNA;locus_tag=J1936_mgt06;product=tRNA-Met
+NC_053756.1	RefSeq	exon	3966	4035	.	+	.	ID=exon-J1936_mgt06-1;Parent=rna-J1936_mgt06;Dbxref=GeneID:63368023;gbkey=tRNA;locus_tag=J1936_mgt06;product=tRNA-Met
+NC_053756.1	RefSeq	gene	4037	5092	.	+	.	ID=gene-J1936_mgp12;Dbxref=GeneID:63368024;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=J1936_mgp12
+NC_053756.1	RefSeq	CDS	4037	5092	.	+	0	ID=cds-YP_010026552.1;Parent=gene-J1936_mgp12;Dbxref=GenBank:YP_010026552.1,GeneID:63368024;Name=YP_010026552.1;gbkey=CDS;gene=ND2;locus_tag=J1936_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010026552.1;transl_table=2
+NC_053756.1	RefSeq	gene	5102	5172	.	+	.	ID=gene-J1936_mgt07;Dbxref=GeneID:63368004;Name=J1936_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt07
+NC_053756.1	RefSeq	tRNA	5102	5172	.	+	.	ID=rna-J1936_mgt07;Parent=gene-J1936_mgt07;Dbxref=GeneID:63368004;gbkey=tRNA;locus_tag=J1936_mgt07;product=tRNA-Trp
+NC_053756.1	RefSeq	exon	5102	5172	.	+	.	ID=exon-J1936_mgt07-1;Parent=rna-J1936_mgt07;Dbxref=GeneID:63368004;gbkey=tRNA;locus_tag=J1936_mgt07;product=tRNA-Trp
+NC_053756.1	RefSeq	gene	5180	5248	.	-	.	ID=gene-J1936_mgt08;Dbxref=GeneID:63368025;Name=J1936_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt08
+NC_053756.1	RefSeq	tRNA	5180	5248	.	-	.	ID=rna-J1936_mgt08;Parent=gene-J1936_mgt08;Dbxref=GeneID:63368025;gbkey=tRNA;locus_tag=J1936_mgt08;product=tRNA-Ala
+NC_053756.1	RefSeq	exon	5180	5248	.	-	.	ID=exon-J1936_mgt08-1;Parent=rna-J1936_mgt08;Dbxref=GeneID:63368025;gbkey=tRNA;locus_tag=J1936_mgt08;product=tRNA-Ala
+NC_053756.1	RefSeq	gene	5250	5322	.	-	.	ID=gene-J1936_mgt09;Dbxref=GeneID:63368026;Name=J1936_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt09
+NC_053756.1	RefSeq	tRNA	5250	5322	.	-	.	ID=rna-J1936_mgt09;Parent=gene-J1936_mgt09;Dbxref=GeneID:63368026;gbkey=tRNA;locus_tag=J1936_mgt09;product=tRNA-Asn
+NC_053756.1	RefSeq	exon	5250	5322	.	-	.	ID=exon-J1936_mgt09-1;Parent=rna-J1936_mgt09;Dbxref=GeneID:63368026;gbkey=tRNA;locus_tag=J1936_mgt09;product=tRNA-Asn
+NC_053756.1	RefSeq	gene	5353	5419	.	-	.	ID=gene-J1936_mgt10;Dbxref=GeneID:63368027;Name=J1936_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt10
+NC_053756.1	RefSeq	tRNA	5353	5419	.	-	.	ID=rna-J1936_mgt10;Parent=gene-J1936_mgt10;Dbxref=GeneID:63368027;gbkey=tRNA;locus_tag=J1936_mgt10;product=tRNA-Cys
+NC_053756.1	RefSeq	exon	5353	5419	.	-	.	ID=exon-J1936_mgt10-1;Parent=rna-J1936_mgt10;Dbxref=GeneID:63368027;gbkey=tRNA;locus_tag=J1936_mgt10;product=tRNA-Cys
+NC_053756.1	RefSeq	gene	5419	5489	.	-	.	ID=gene-J1936_mgt11;Dbxref=GeneID:63368028;Name=J1936_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt11
+NC_053756.1	RefSeq	tRNA	5419	5489	.	-	.	ID=rna-J1936_mgt11;Parent=gene-J1936_mgt11;Dbxref=GeneID:63368028;gbkey=tRNA;locus_tag=J1936_mgt11;product=tRNA-Tyr
+NC_053756.1	RefSeq	exon	5419	5489	.	-	.	ID=exon-J1936_mgt11-1;Parent=rna-J1936_mgt11;Dbxref=GeneID:63368028;gbkey=tRNA;locus_tag=J1936_mgt11;product=tRNA-Tyr
+NC_053756.1	RefSeq	gene	5491	7050	.	+	.	ID=gene-J1936_mgp11;Dbxref=GeneID:63368029;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=J1936_mgp11
+NC_053756.1	RefSeq	CDS	5491	7050	.	+	0	ID=cds-YP_010026553.1;Parent=gene-J1936_mgp11;Dbxref=GenBank:YP_010026553.1,GeneID:63368029;Name=YP_010026553.1;gbkey=CDS;gene=COX1;locus_tag=J1936_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010026553.1;transl_table=2
+NC_053756.1	RefSeq	gene	7038	7109	.	-	.	ID=gene-J1936_mgt12;Dbxref=GeneID:63368005;Name=J1936_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt12
+NC_053756.1	RefSeq	tRNA	7038	7109	.	-	.	ID=rna-J1936_mgt12;Parent=gene-J1936_mgt12;Dbxref=GeneID:63368005;codons=4%2C5%2C6%2C7;gbkey=tRNA;locus_tag=J1936_mgt12;product=tRNA-Ser
+NC_053756.1	RefSeq	exon	7038	7109	.	-	.	ID=exon-J1936_mgt12-1;Parent=rna-J1936_mgt12;Dbxref=GeneID:63368005;codons=4%2C5%2C6%2C7;gbkey=tRNA;locus_tag=J1936_mgt12;product=tRNA-Ser
+NC_053756.1	RefSeq	gene	7117	7188	.	+	.	ID=gene-J1936_mgt13;Dbxref=GeneID:63368030;Name=J1936_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt13
+NC_053756.1	RefSeq	tRNA	7117	7188	.	+	.	ID=rna-J1936_mgt13;Parent=gene-J1936_mgt13;Dbxref=GeneID:63368030;gbkey=tRNA;locus_tag=J1936_mgt13;product=tRNA-Asp
+NC_053756.1	RefSeq	exon	7117	7188	.	+	.	ID=exon-J1936_mgt13-1;Parent=rna-J1936_mgt13;Dbxref=GeneID:63368030;gbkey=tRNA;locus_tag=J1936_mgt13;product=tRNA-Asp
+NC_053756.1	RefSeq	gene	7203	7893	.	+	.	ID=gene-J1936_mgp10;Dbxref=GeneID:63368031;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=J1936_mgp10
+NC_053756.1	RefSeq	CDS	7203	7893	.	+	0	ID=cds-YP_010026554.1;Parent=gene-J1936_mgp10;Dbxref=GenBank:YP_010026554.1,GeneID:63368031;Name=YP_010026554.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=J1936_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010026554.1;transl_except=(pos:7893..7893%2Caa:TERM);transl_table=2
+NC_053756.1	RefSeq	gene	7894	7966	.	+	.	ID=gene-J1936_mgt14;Dbxref=GeneID:63368006;Name=J1936_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt14
+NC_053756.1	RefSeq	tRNA	7894	7966	.	+	.	ID=rna-J1936_mgt14;Parent=gene-J1936_mgt14;Dbxref=GeneID:63368006;gbkey=tRNA;locus_tag=J1936_mgt14;product=tRNA-Lys
+NC_053756.1	RefSeq	exon	7894	7966	.	+	.	ID=exon-J1936_mgt14-1;Parent=rna-J1936_mgt14;Dbxref=GeneID:63368006;gbkey=tRNA;locus_tag=J1936_mgt14;product=tRNA-Lys
+NC_053756.1	RefSeq	gene	7968	8135	.	+	.	ID=gene-J1936_mgp09;Dbxref=GeneID:63368032;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=J1936_mgp09
+NC_053756.1	RefSeq	CDS	7968	8135	.	+	0	ID=cds-YP_010026555.1;Parent=gene-J1936_mgp09;Dbxref=GenBank:YP_010026555.1,GeneID:63368032;Name=YP_010026555.1;gbkey=CDS;gene=ATP8;locus_tag=J1936_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010026555.1;transl_table=2
+NC_053756.1	RefSeq	gene	8126	8807	.	+	.	ID=gene-J1936_mgp08;Dbxref=GeneID:63368007;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=J1936_mgp08
+NC_053756.1	RefSeq	CDS	8126	8807	.	+	0	ID=cds-YP_010026556.1;Parent=gene-J1936_mgp08;Dbxref=GenBank:YP_010026556.1,GeneID:63368007;Name=YP_010026556.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ATP6;locus_tag=J1936_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010026556.1;transl_except=(pos:8807..8807%2Caa:TERM);transl_table=2
+NC_053756.1	RefSeq	gene	8808	9591	.	+	.	ID=gene-J1936_mgp07;Dbxref=GeneID:63368008;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=J1936_mgp07
+NC_053756.1	RefSeq	CDS	8808	9591	.	+	0	ID=cds-YP_010026557.1;Parent=gene-J1936_mgp07;Dbxref=GenBank:YP_010026557.1,GeneID:63368008;Name=YP_010026557.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=J1936_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010026557.1;transl_except=(pos:9591..9591%2Caa:TERM);transl_table=2
+NC_053756.1	RefSeq	gene	9592	9662	.	+	.	ID=gene-J1936_mgt15;Dbxref=GeneID:63368009;Name=J1936_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt15
+NC_053756.1	RefSeq	tRNA	9592	9662	.	+	.	ID=rna-J1936_mgt15;Parent=gene-J1936_mgt15;Dbxref=GeneID:63368009;gbkey=tRNA;locus_tag=J1936_mgt15;product=tRNA-Gly
+NC_053756.1	RefSeq	exon	9592	9662	.	+	.	ID=exon-J1936_mgt15-1;Parent=rna-J1936_mgt15;Dbxref=GeneID:63368009;gbkey=tRNA;locus_tag=J1936_mgt15;product=tRNA-Gly
+NC_053756.1	RefSeq	gene	9663	10011	.	+	.	ID=gene-J1936_mgp06;Dbxref=GeneID:63368033;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=J1936_mgp06
+NC_053756.1	RefSeq	CDS	9663	10011	.	+	0	ID=cds-YP_010026558.1;Parent=gene-J1936_mgp06;Dbxref=GenBank:YP_010026558.1,GeneID:63368033;Name=YP_010026558.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=J1936_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010026558.1;transl_except=(pos:10011..10011%2Caa:TERM);transl_table=2
+NC_053756.1	RefSeq	gene	10012	10080	.	+	.	ID=gene-J1936_mgt16;Dbxref=GeneID:63368010;Name=J1936_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt16
+NC_053756.1	RefSeq	tRNA	10012	10080	.	+	.	ID=rna-J1936_mgt16;Parent=gene-J1936_mgt16;Dbxref=GeneID:63368010;gbkey=tRNA;locus_tag=J1936_mgt16;product=tRNA-Arg
+NC_053756.1	RefSeq	exon	10012	10080	.	+	.	ID=exon-J1936_mgt16-1;Parent=rna-J1936_mgt16;Dbxref=GeneID:63368010;gbkey=tRNA;locus_tag=J1936_mgt16;product=tRNA-Arg
+NC_053756.1	RefSeq	gene	10081	10377	.	+	.	ID=gene-J1936_mgp05;Dbxref=GeneID:63368034;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=J1936_mgp05
+NC_053756.1	RefSeq	CDS	10081	10377	.	+	0	ID=cds-YP_010026559.1;Parent=gene-J1936_mgp05;Dbxref=GenBank:YP_010026559.1,GeneID:63368034;Name=YP_010026559.1;gbkey=CDS;gene=ND4L;locus_tag=J1936_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010026559.1;transl_table=2
+NC_053756.1	RefSeq	gene	10371	11751	.	+	.	ID=gene-J1936_mgp04;Dbxref=GeneID:63368011;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=J1936_mgp04
+NC_053756.1	RefSeq	CDS	10371	11751	.	+	0	ID=cds-YP_010026560.1;Parent=gene-J1936_mgp04;Dbxref=GenBank:YP_010026560.1,GeneID:63368011;Name=YP_010026560.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=J1936_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010026560.1;transl_except=(pos:11751..11751%2Caa:TERM);transl_table=2
+NC_053756.1	RefSeq	gene	11752	11820	.	+	.	ID=gene-J1936_mgt17;Dbxref=GeneID:63368012;Name=J1936_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt17
+NC_053756.1	RefSeq	tRNA	11752	11820	.	+	.	ID=rna-J1936_mgt17;Parent=gene-J1936_mgt17;Dbxref=GeneID:63368012;gbkey=tRNA;locus_tag=J1936_mgt17;product=tRNA-His
+NC_053756.1	RefSeq	exon	11752	11820	.	+	.	ID=exon-J1936_mgt17-1;Parent=rna-J1936_mgt17;Dbxref=GeneID:63368012;gbkey=tRNA;locus_tag=J1936_mgt17;product=tRNA-His
+NC_053756.1	RefSeq	gene	11821	11888	.	+	.	ID=gene-J1936_mgt18;Dbxref=GeneID:63368035;Name=J1936_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt18
+NC_053756.1	RefSeq	tRNA	11821	11888	.	+	.	ID=rna-J1936_mgt18;Parent=gene-J1936_mgt18;Dbxref=GeneID:63368035;gbkey=tRNA;locus_tag=J1936_mgt18;product=tRNA-Ser
+NC_053756.1	RefSeq	exon	11821	11888	.	+	.	ID=exon-J1936_mgt18-1;Parent=rna-J1936_mgt18;Dbxref=GeneID:63368035;gbkey=tRNA;locus_tag=J1936_mgt18;product=tRNA-Ser
+NC_053756.1	RefSeq	gene	11890	11962	.	+	.	ID=gene-J1936_mgt19;Dbxref=GeneID:63368036;Name=J1936_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt19
+NC_053756.1	RefSeq	tRNA	11890	11962	.	+	.	ID=rna-J1936_mgt19;Parent=gene-J1936_mgt19;Dbxref=GeneID:63368036;codons=16%2C17%2C18%2C19;gbkey=tRNA;locus_tag=J1936_mgt19;product=tRNA-Leu
+NC_053756.1	RefSeq	exon	11890	11962	.	+	.	ID=exon-J1936_mgt19-1;Parent=rna-J1936_mgt19;Dbxref=GeneID:63368036;codons=16%2C17%2C18%2C19;gbkey=tRNA;locus_tag=J1936_mgt19;product=tRNA-Leu
+NC_053756.1	RefSeq	gene	11963	13801	.	+	.	ID=gene-J1936_mgp03;Dbxref=GeneID:63368037;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=J1936_mgp03
+NC_053756.1	RefSeq	CDS	11963	13801	.	+	0	ID=cds-YP_010026561.1;Parent=gene-J1936_mgp03;Dbxref=GenBank:YP_010026561.1,GeneID:63368037;Name=YP_010026561.1;gbkey=CDS;gene=ND5;locus_tag=J1936_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010026561.1;transl_table=2
+NC_053756.1	RefSeq	gene	13798	14313	.	-	.	ID=gene-J1936_mgp02;Dbxref=GeneID:63368013;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=J1936_mgp02
+NC_053756.1	RefSeq	CDS	13798	14313	.	-	0	ID=cds-YP_010026562.1;Parent=gene-J1936_mgp02;Dbxref=GenBank:YP_010026562.1,GeneID:63368013;Name=YP_010026562.1;gbkey=CDS;gene=ND6;locus_tag=J1936_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010026562.1;transl_table=2
+NC_053756.1	RefSeq	gene	14314	14381	.	-	.	ID=gene-J1936_mgt20;Dbxref=GeneID:63368014;Name=J1936_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt20
+NC_053756.1	RefSeq	tRNA	14314	14381	.	-	.	ID=rna-J1936_mgt20;Parent=gene-J1936_mgt20;Dbxref=GeneID:63368014;gbkey=tRNA;locus_tag=J1936_mgt20;product=tRNA-Glu
+NC_053756.1	RefSeq	exon	14314	14381	.	-	.	ID=exon-J1936_mgt20-1;Parent=rna-J1936_mgt20;Dbxref=GeneID:63368014;gbkey=tRNA;locus_tag=J1936_mgt20;product=tRNA-Glu
+NC_053756.1	RefSeq	gene	14387	15523	.	+	.	ID=gene-J1936_mgp01;Dbxref=GeneID:63368038;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=J1936_mgp01
+NC_053756.1	RefSeq	CDS	14387	15523	.	+	0	ID=cds-YP_010026563.1;Parent=gene-J1936_mgp01;Dbxref=GenBank:YP_010026563.1,GeneID:63368038;Name=YP_010026563.1;gbkey=CDS;gene=CYTB;locus_tag=J1936_mgp01;product=cytochrome b;protein_id=YP_010026563.1;transl_table=2
+NC_053756.1	RefSeq	gene	15525	15596	.	+	.	ID=gene-J1936_mgt21;Dbxref=GeneID:63368015;Name=J1936_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt21
+NC_053756.1	RefSeq	tRNA	15525	15596	.	+	.	ID=rna-J1936_mgt21;Parent=gene-J1936_mgt21;Dbxref=GeneID:63368015;gbkey=tRNA;locus_tag=J1936_mgt21;product=tRNA-Thr
+NC_053756.1	RefSeq	exon	15525	15596	.	+	.	ID=exon-J1936_mgt21-1;Parent=rna-J1936_mgt21;Dbxref=GeneID:63368015;gbkey=tRNA;locus_tag=J1936_mgt21;product=tRNA-Thr
+NC_053756.1	RefSeq	gene	15595	15663	.	-	.	ID=gene-J1936_mgt22;Dbxref=GeneID:63368039;Name=J1936_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1936_mgt22
+NC_053756.1	RefSeq	tRNA	15595	15663	.	-	.	ID=rna-J1936_mgt22;Parent=gene-J1936_mgt22;Dbxref=GeneID:63368039;gbkey=tRNA;locus_tag=J1936_mgt22;product=tRNA-Pro
+NC_053756.1	RefSeq	exon	15595	15663	.	-	.	ID=exon-J1936_mgt22-1;Parent=rna-J1936_mgt22;Dbxref=GeneID:63368039;gbkey=tRNA;locus_tag=J1936_mgt22;product=tRNA-Pro
+NC_053756.1	RefSeq	D_loop	15664	16763	.	+	.	ID=id-NC_053756.1:15664..16763;Note=control region;gbkey=D-loop
+

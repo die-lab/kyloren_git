@@ -1,0 +1,70 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region FJ890849.1 1 16780
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29158
+FJ890849.1	Genbank	region	1	16780	.	+	.	ID=FJ890849.1:1..16780;Dbxref=taxon:29158;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;haplotype=F;isolate=AZO20;mol_type=genomic DNA;sex=female
+FJ890849.1	Genbank	tRNA	1195	1261	.	+	.	ID=rna-FJ890849.1:1195..1261;anticodon=(pos:1226..1228);gbkey=tRNA;product=tRNA-Tyr
+FJ890849.1	Genbank	exon	1195	1261	.	+	.	ID=exon-FJ890849.1:1195..1261-1;Parent=rna-FJ890849.1:1195..1261;anticodon=(pos:1226..1228);gbkey=tRNA;product=tRNA-Tyr
+FJ890849.1	Genbank	CDS	1263	2570	.	+	0	ID=cds-ACP04310.1;Dbxref=NCBI_GP:ACP04310.1;Name=ACP04310.1;gbkey=CDS;product=cytochrome b;protein_id=ACP04310.1;transl_table=5
+FJ890849.1	Genbank	CDS	2573	3301	.	+	0	ID=cds-ACP04311.1;Dbxref=NCBI_GP:ACP04311.1;Name=ACP04311.1;gbkey=CDS;product=cytochrome c oxidase subunit II;protein_id=ACP04311.1;transl_table=5
+FJ890849.1	Genbank	tRNA	3305	3373	.	+	.	ID=rna-FJ890849.1:3305..3373;anticodon=(pos:3334..3336);gbkey=tRNA;product=tRNA-Lys
+FJ890849.1	Genbank	exon	3305	3373	.	+	.	ID=exon-FJ890849.1:3305..3373-1;Parent=rna-FJ890849.1:3305..3373;anticodon=(pos:3334..3336);gbkey=tRNA;product=tRNA-Lys
+FJ890849.1	Genbank	tRNA	3377	3445	.	+	.	ID=rna-FJ890849.1:3377..3445;anticodon=(pos:3409..3411);gbkey=tRNA;product=tRNA-Met
+FJ890849.1	Genbank	exon	3377	3445	.	+	.	ID=exon-FJ890849.1:3377..3445-1;Parent=rna-FJ890849.1:3377..3445;anticodon=(pos:3409..3411);gbkey=tRNA;product=tRNA-Met
+FJ890849.1	Genbank	tRNA	3449	3514	.	+	.	ID=rna-FJ890849.1:3449..3514;anticodon=(pos:3479..3481);gbkey=tRNA;product=tRNA-Leu
+FJ890849.1	Genbank	exon	3449	3514	.	+	.	ID=exon-FJ890849.1:3449..3514-1;Parent=rna-FJ890849.1:3449..3514;anticodon=(pos:3479..3481);gbkey=tRNA;product=tRNA-Leu
+FJ890849.1	Genbank	tRNA	3517	3584	.	+	.	ID=rna-FJ890849.1:3517..3584;anticodon=(pos:3548..3550);gbkey=tRNA;product=tRNA-Leu
+FJ890849.1	Genbank	exon	3517	3584	.	+	.	ID=exon-FJ890849.1:3517..3584-1;Parent=rna-FJ890849.1:3517..3584;anticodon=(pos:3548..3550);gbkey=tRNA;product=tRNA-Leu
+FJ890849.1	Genbank	CDS	3584	4662	.	+	0	ID=cds-ACP04312.1;Dbxref=NCBI_GP:ACP04312.1;Name=ACP04312.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=NADH dehydrogenase subunit 1;protein_id=ACP04312.1;transl_except=(pos:4661..4662%2Caa:TERM);transl_table=5
+FJ890849.1	Genbank	tRNA	4663	4728	.	+	.	ID=rna-FJ890849.1:4663..4728;anticodon=(pos:4694..4696);gbkey=tRNA;product=tRNA-Val
+FJ890849.1	Genbank	exon	4663	4728	.	+	.	ID=exon-FJ890849.1:4663..4728-1;Parent=rna-FJ890849.1:4663..4728;anticodon=(pos:4694..4696);gbkey=tRNA;product=tRNA-Val
+FJ890849.1	Genbank	CDS	4729	6036	.	+	0	ID=cds-ACP04313.1;Dbxref=NCBI_GP:ACP04313.1;Name=ACP04313.1;gbkey=CDS;product=NADH dehydrogenase subunit 4;protein_id=ACP04313.1;transl_table=5
+FJ890849.1	Genbank	CDS	6040	6975	.	+	0	ID=cds-ACP04314.1;Dbxref=NCBI_GP:ACP04314.1;Name=ACP04314.1;gbkey=CDS;product=cytochrome c oxidase subunit III;protein_id=ACP04314.1;transl_table=5
+FJ890849.1	Genbank	tRNA	6990	7054	.	+	.	ID=rna-FJ890849.1:6990..7054;anticodon=(pos:7013..7015);gbkey=tRNA;product=tRNA-Ser
+FJ890849.1	Genbank	exon	6990	7054	.	+	.	ID=exon-FJ890849.1:6990..7054-1;Parent=rna-FJ890849.1:6990..7054;anticodon=(pos:7013..7015);gbkey=tRNA;product=tRNA-Ser
+FJ890849.1	Genbank	tRNA	7055	7119	.	+	.	ID=rna-FJ890849.1:7055..7119;anticodon=(pos:7086..7088);gbkey=tRNA;product=tRNA-Met
+FJ890849.1	Genbank	exon	7055	7119	.	+	.	ID=exon-FJ890849.1:7055..7119-1;Parent=rna-FJ890849.1:7055..7119;anticodon=(pos:7086..7088);gbkey=tRNA;product=tRNA-Met
+FJ890849.1	Genbank	CDS	7123	8070	.	+	0	ID=cds-ACP04315.1;Dbxref=NCBI_GP:ACP04315.1;Name=ACP04315.1;gbkey=CDS;product=NADH dehydrogenase subunit 2;protein_id=ACP04315.1;transl_table=5
+FJ890849.1	Genbank	tRNA	8073	8139	.	+	.	ID=rna-FJ890849.1:8073..8139;anticodon=(pos:8102..8104);gbkey=tRNA;product=tRNA-Arg
+FJ890849.1	Genbank	exon	8073	8139	.	+	.	ID=exon-FJ890849.1:8073..8139-1;Parent=rna-FJ890849.1:8073..8139;anticodon=(pos:8102..8104);gbkey=tRNA;product=tRNA-Arg
+FJ890849.1	Genbank	tRNA	8142	8210	.	+	.	ID=rna-FJ890849.1:8142..8210;anticodon=(pos:8173..8175);gbkey=tRNA;product=tRNA-Trp
+FJ890849.1	Genbank	exon	8142	8210	.	+	.	ID=exon-FJ890849.1:8142..8210-1;Parent=rna-FJ890849.1:8142..8210;anticodon=(pos:8173..8175);gbkey=tRNA;product=tRNA-Trp
+FJ890849.1	Genbank	tRNA	8211	8274	.	+	.	ID=rna-FJ890849.1:8211..8274;anticodon=(pos:8241..8243);gbkey=tRNA;product=tRNA-Ala
+FJ890849.1	Genbank	exon	8211	8274	.	+	.	ID=exon-FJ890849.1:8211..8274-1;Parent=rna-FJ890849.1:8211..8274;anticodon=(pos:8241..8243);gbkey=tRNA;product=tRNA-Ala
+FJ890849.1	Genbank	tRNA	8278	8345	.	+	.	ID=rna-FJ890849.1:8278..8345;anticodon=(pos:8306..8308);gbkey=tRNA;product=tRNA-Ser
+FJ890849.1	Genbank	exon	8278	8345	.	+	.	ID=exon-FJ890849.1:8278..8345-1;Parent=rna-FJ890849.1:8278..8345;anticodon=(pos:8306..8308);gbkey=tRNA;product=tRNA-Ser
+FJ890849.1	Genbank	tRNA	8347	8410	.	+	.	ID=rna-FJ890849.1:8347..8410;anticodon=(pos:8379..8381);gbkey=tRNA;product=tRNA-His
+FJ890849.1	Genbank	exon	8347	8410	.	+	.	ID=exon-FJ890849.1:8347..8410-1;Parent=rna-FJ890849.1:8347..8410;anticodon=(pos:8379..8381);gbkey=tRNA;product=tRNA-His
+FJ890849.1	Genbank	tRNA	8412	8476	.	+	.	ID=rna-FJ890849.1:8412..8476;anticodon=(pos:8443..8445);gbkey=tRNA;product=tRNA-Pro
+FJ890849.1	Genbank	exon	8412	8476	.	+	.	ID=exon-FJ890849.1:8412..8476-1;Parent=rna-FJ890849.1:8412..8476;anticodon=(pos:8443..8445);gbkey=tRNA;product=tRNA-Pro
+FJ890849.1	Genbank	CDS	8479	8829	.	+	0	ID=cds-ACP04316.1;Dbxref=NCBI_GP:ACP04316.1;Name=ACP04316.1;gbkey=CDS;product=NADH dehydrogenase subunit 3;protein_id=ACP04316.1;transl_table=5
+FJ890849.1	Genbank	CDS	8839	9102	.	+	0	ID=cds-QIA59462.1;Dbxref=NCBI_GP:QIA59462.1;Name=QIA59462.1;gbkey=CDS;product=ATP synthase F0 subunit 8;protein_id=QIA59462.1;transl_table=5
+FJ890849.1	Genbank	CDS	9114	10769	.	+	0	ID=cds-ACP04317.1;Dbxref=NCBI_GP:ACP04317.1;Name=ACP04317.1;gbkey=CDS;product=cytochrome c oxidase subunit I;protein_id=ACP04317.1;transl_table=5
+FJ890849.1	Genbank	CDS	10779	11495	.	+	0	ID=cds-ACP04318.1;Dbxref=NCBI_GP:ACP04318.1;Name=ACP04318.1;gbkey=CDS;product=ATP synthase F0 subunit 6;protein_id=ACP04318.1;transl_table=5
+FJ890849.1	Genbank	tRNA	11499	11563	.	+	.	ID=rna-FJ890849.1:11499..11563;anticodon=(pos:11530..11532);gbkey=tRNA;product=tRNA-Thr
+FJ890849.1	Genbank	exon	11499	11563	.	+	.	ID=exon-FJ890849.1:11499..11563-1;Parent=rna-FJ890849.1:11499..11563;anticodon=(pos:11530..11532);gbkey=tRNA;product=tRNA-Thr
+FJ890849.1	Genbank	CDS	11563	11844	.	+	0	ID=cds-ACP04319.1;Dbxref=NCBI_GP:ACP04319.1;Name=ACP04319.1;gbkey=CDS;product=NADH dehydrogenase subunit 4L;protein_id=ACP04319.1;transl_table=5
+FJ890849.1	Genbank	CDS	11855	13561	.	+	0	ID=cds-ACP04320.1;Dbxref=NCBI_GP:ACP04320.1;Name=ACP04320.1;gbkey=CDS;product=NADH dehydrogenase subunit 5;protein_id=ACP04320.1;transl_table=5
+FJ890849.1	Genbank	CDS	13561	14025	.	+	0	ID=cds-ACP04321.1;Dbxref=NCBI_GP:ACP04321.1;Name=ACP04321.1;gbkey=CDS;product=NADH dehydrogenase subunit 6;protein_id=ACP04321.1;transl_table=5
+FJ890849.1	Genbank	tRNA	14039	14106	.	+	.	ID=rna-FJ890849.1:14039..14106;anticodon=(pos:14069..14071);gbkey=tRNA;product=tRNA-Phe
+FJ890849.1	Genbank	exon	14039	14106	.	+	.	ID=exon-FJ890849.1:14039..14106-1;Parent=rna-FJ890849.1:14039..14106;anticodon=(pos:14069..14071);gbkey=tRNA;product=tRNA-Phe
+FJ890849.1	Genbank	rRNA	14107	15053	.	+	.	ID=rna-FJ890849.1:14107..15053;gbkey=rRNA;product=small subunit ribosomal RNA
+FJ890849.1	Genbank	exon	14107	15053	.	+	.	ID=exon-FJ890849.1:14107..15053-1;Parent=rna-FJ890849.1:14107..15053;gbkey=rRNA;product=small subunit ribosomal RNA
+FJ890849.1	Genbank	tRNA	15054	15119	.	+	.	ID=rna-FJ890849.1:15054..15119;anticodon=(pos:15085..15087);gbkey=tRNA;product=tRNA-Gly
+FJ890849.1	Genbank	exon	15054	15119	.	+	.	ID=exon-FJ890849.1:15054..15119-1;Parent=rna-FJ890849.1:15054..15119;anticodon=(pos:15085..15087);gbkey=tRNA;product=tRNA-Gly
+FJ890849.1	Genbank	tRNA	15120	15184	.	+	.	ID=rna-FJ890849.1:15120..15184;anticodon=(pos:15151..15153);gbkey=tRNA;product=tRNA-Asn
+FJ890849.1	Genbank	exon	15120	15184	.	+	.	ID=exon-FJ890849.1:15120..15184-1;Parent=rna-FJ890849.1:15120..15184;anticodon=(pos:15151..15153);gbkey=tRNA;product=tRNA-Asn
+FJ890849.1	Genbank	tRNA	15185	15249	.	+	.	ID=rna-FJ890849.1:15185..15249;anticodon=(pos:15215..15217);gbkey=tRNA;product=tRNA-Glu
+FJ890849.1	Genbank	exon	15185	15249	.	+	.	ID=exon-FJ890849.1:15185..15249-1;Parent=rna-FJ890849.1:15185..15249;anticodon=(pos:15215..15217);gbkey=tRNA;product=tRNA-Glu
+FJ890849.1	Genbank	tRNA	15251	15318	.	+	.	ID=rna-FJ890849.1:15251..15318;anticodon=(pos:15285..15287);gbkey=tRNA;product=tRNA-Cys
+FJ890849.1	Genbank	exon	15251	15318	.	+	.	ID=exon-FJ890849.1:15251..15318-1;Parent=rna-FJ890849.1:15251..15318;anticodon=(pos:15285..15287);gbkey=tRNA;product=tRNA-Cys
+FJ890849.1	Genbank	tRNA	15319	15385	.	+	.	ID=rna-FJ890849.1:15319..15385;anticodon=(pos:15350..15352);gbkey=tRNA;product=tRNA-Ile
+FJ890849.1	Genbank	exon	15319	15385	.	+	.	ID=exon-FJ890849.1:15319..15385-1;Parent=rna-FJ890849.1:15319..15385;anticodon=(pos:15350..15352);gbkey=tRNA;product=tRNA-Ile
+FJ890849.1	Genbank	tRNA	15400	15466	.	+	.	ID=rna-FJ890849.1:15400..15466;anticodon=(pos:15429..15431);gbkey=tRNA;product=tRNA-Gln
+FJ890849.1	Genbank	exon	15400	15466	.	+	.	ID=exon-FJ890849.1:15400..15466-1;Parent=rna-FJ890849.1:15400..15466;anticodon=(pos:15429..15431);gbkey=tRNA;product=tRNA-Gln
+FJ890849.1	Genbank	tRNA	15472	15536	.	+	.	ID=rna-FJ890849.1:15472..15536;anticodon=(pos:15502..15504);gbkey=tRNA;product=tRNA-Asp
+FJ890849.1	Genbank	exon	15472	15536	.	+	.	ID=exon-FJ890849.1:15472..15536-1;Parent=rna-FJ890849.1:15472..15536;anticodon=(pos:15502..15504);gbkey=tRNA;product=tRNA-Asp
+FJ890849.1	Genbank	rRNA	15537	16780	.	+	.	ID=rna-FJ890849.1:15537..16780;gbkey=rRNA;product=large subunit ribosomal RNA
+FJ890849.1	Genbank	exon	15537	16780	.	+	.	ID=exon-FJ890849.1:15537..16780-1;Parent=rna-FJ890849.1:15537..16780;gbkey=rRNA;product=large subunit ribosomal RNA
+

@@ -1,0 +1,75 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region GU001955.1 1 14141
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36825
+GU001955.1	Genbank	region	1	14141	.	+	.	ID=GU001955.1:1..14141;Dbxref=taxon:36825;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;specimen-voucher=Batt-Isr1
+GU001955.1	Genbank	gene	1	999	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	1	999	.	+	0	ID=cds-ACY00185.1;Parent=gene-ND2;Dbxref=NCBI_GP:ACY00185.1;Name=ACY00185.1;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=ACY00185.1;transl_table=5
+GU001955.1	Genbank	tRNA	998	1062	.	+	.	ID=rna-GU001955.1:998..1062;gbkey=tRNA;product=tRNA-Trp
+GU001955.1	Genbank	exon	998	1062	.	+	.	ID=exon-GU001955.1:998..1062-1;Parent=rna-GU001955.1:998..1062;gbkey=tRNA;product=tRNA-Trp
+GU001955.1	Genbank	tRNA	1055	1119	.	-	.	ID=rna-GU001955.1:1055..1119;gbkey=tRNA;product=tRNA-Cys
+GU001955.1	Genbank	exon	1055	1119	.	-	.	ID=exon-GU001955.1:1055..1119-1;Parent=rna-GU001955.1:1055..1119;gbkey=tRNA;product=tRNA-Cys
+GU001955.1	Genbank	tRNA	1120	1183	.	-	.	ID=rna-GU001955.1:1120..1183;gbkey=tRNA;product=tRNA-Tyr
+GU001955.1	Genbank	exon	1120	1183	.	-	.	ID=exon-GU001955.1:1120..1183-1;Parent=rna-GU001955.1:1120..1183;gbkey=tRNA;product=tRNA-Tyr
+GU001955.1	Genbank	gene	1185	2723	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	1185	2723	.	+	0	ID=cds-ACY00186.1;Parent=gene-COX1;Dbxref=NCBI_GP:ACY00186.1;Name=ACY00186.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=ACY00186.1;transl_table=5
+GU001955.1	Genbank	tRNA	2719	2782	.	+	.	ID=rna-GU001955.1:2719..2782;gbkey=tRNA;product=tRNA-Leu
+GU001955.1	Genbank	exon	2719	2782	.	+	.	ID=exon-GU001955.1:2719..2782-1;Parent=rna-GU001955.1:2719..2782;gbkey=tRNA;product=tRNA-Leu
+GU001955.1	Genbank	gene	2783	3449	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	2783	3449	.	+	0	ID=cds-ACY00187.1;Parent=gene-COX2;Dbxref=NCBI_GP:ACY00187.1;Name=ACY00187.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=ACY00187.1;transl_except=(pos:3449..3449%2Caa:TERM);transl_table=5
+GU001955.1	Genbank	tRNA	3450	3519	.	+	.	ID=rna-GU001955.1:3450..3519;gbkey=tRNA;product=tRNA-Lys
+GU001955.1	Genbank	exon	3450	3519	.	+	.	ID=exon-GU001955.1:3450..3519-1;Parent=rna-GU001955.1:3450..3519;gbkey=tRNA;product=tRNA-Lys
+GU001955.1	Genbank	tRNA	3519	3584	.	+	.	ID=rna-GU001955.1:3519..3584;gbkey=tRNA;product=tRNA-Asp
+GU001955.1	Genbank	exon	3519	3584	.	+	.	ID=exon-GU001955.1:3519..3584-1;Parent=rna-GU001955.1:3519..3584;gbkey=tRNA;product=tRNA-Asp
+GU001955.1	Genbank	gene	3585	3743	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	3585	3743	.	+	0	ID=cds-ACY00188.1;Parent=gene-ATP8;Dbxref=NCBI_GP:ACY00188.1;Name=ACY00188.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=ACY00188.1;transl_table=5
+GU001955.1	Genbank	gene	3737	4411	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	3737	4411	.	+	0	ID=cds-ACY00189.1;Parent=gene-ATP6;Dbxref=NCBI_GP:ACY00189.1;Name=ACY00189.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=ACY00189.1;transl_table=5
+GU001955.1	Genbank	gene	4411	5197	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	4411	5197	.	+	0	ID=cds-ACY00190.2;Parent=gene-COX3;Dbxref=NCBI_GP:ACY00190.2;Name=ACY00190.2;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=ACY00190.2;transl_except=(pos:5197..5197%2Caa:TERM);transl_table=5
+GU001955.1	Genbank	tRNA	5198	5262	.	+	.	ID=rna-GU001955.1:5198..5262;gbkey=tRNA;product=tRNA-Gly
+GU001955.1	Genbank	exon	5198	5262	.	+	.	ID=exon-GU001955.1:5198..5262-1;Parent=rna-GU001955.1:5198..5262;gbkey=tRNA;product=tRNA-Gly
+GU001955.1	Genbank	gene	5263	5614	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	5263	5614	.	+	0	ID=cds-ACY00191.1;Parent=gene-ND3;Dbxref=NCBI_GP:ACY00191.1;Name=ACY00191.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=ACY00191.1;transl_except=(pos:5614..5614%2Caa:TERM);transl_table=5
+GU001955.1	Genbank	tRNA	5615	5681	.	+	.	ID=rna-GU001955.1:5615..5681;gbkey=tRNA;product=tRNA-Ala
+GU001955.1	Genbank	exon	5615	5681	.	+	.	ID=exon-GU001955.1:5615..5681-1;Parent=rna-GU001955.1:5615..5681;gbkey=tRNA;product=tRNA-Ala
+GU001955.1	Genbank	tRNA	5681	5746	.	+	.	ID=rna-GU001955.1:5681..5746;gbkey=tRNA;product=tRNA-Arg
+GU001955.1	Genbank	exon	5681	5746	.	+	.	ID=exon-GU001955.1:5681..5746-1;Parent=rna-GU001955.1:5681..5746;gbkey=tRNA;product=tRNA-Arg
+GU001955.1	Genbank	tRNA	5747	5812	.	+	.	ID=rna-GU001955.1:5747..5812;gbkey=tRNA;product=tRNA-Asn
+GU001955.1	Genbank	exon	5747	5812	.	+	.	ID=exon-GU001955.1:5747..5812-1;Parent=rna-GU001955.1:5747..5812;gbkey=tRNA;product=tRNA-Asn
+GU001955.1	Genbank	tRNA	5814	5878	.	+	.	ID=rna-GU001955.1:5814..5878;gbkey=tRNA;product=tRNA-Ser
+GU001955.1	Genbank	exon	5814	5878	.	+	.	ID=exon-GU001955.1:5814..5878-1;Parent=rna-GU001955.1:5814..5878;gbkey=tRNA;product=tRNA-Ser
+GU001955.1	Genbank	tRNA	5880	5945	.	+	.	ID=rna-GU001955.1:5880..5945;gbkey=tRNA;product=tRNA-Glu
+GU001955.1	Genbank	exon	5880	5945	.	+	.	ID=exon-GU001955.1:5880..5945-1;Parent=rna-GU001955.1:5880..5945;gbkey=tRNA;product=tRNA-Glu
+GU001955.1	Genbank	tRNA	5944	6007	.	-	.	ID=rna-GU001955.1:5944..6007;gbkey=tRNA;product=tRNA-Phe
+GU001955.1	Genbank	exon	5944	6007	.	-	.	ID=exon-GU001955.1:5944..6007-1;Parent=rna-GU001955.1:5944..6007;gbkey=tRNA;product=tRNA-Phe
+GU001955.1	Genbank	gene	6007	7671	.	-	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	6007	7671	.	-	0	ID=cds-ACY00192.1;Parent=gene-ND5;Dbxref=NCBI_GP:ACY00192.1;Name=ACY00192.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=ACY00192.1;transl_table=5
+GU001955.1	Genbank	tRNA	7732	7795	.	-	.	ID=rna-GU001955.1:7732..7795;gbkey=tRNA;product=tRNA-His
+GU001955.1	Genbank	exon	7732	7795	.	-	.	ID=exon-GU001955.1:7732..7795-1;Parent=rna-GU001955.1:7732..7795;gbkey=tRNA;product=tRNA-His
+GU001955.1	Genbank	gene	7798	9126	.	-	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	7798	9126	.	-	0	ID=cds-ACY00196.1;Parent=gene-ND4;Dbxref=NCBI_GP:ACY00196.1;Name=ACY00196.1;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=ACY00196.1;transl_table=5
+GU001955.1	Genbank	gene	9120	9404	.	-	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	9120	9404	.	-	0	ID=cds-ACY00197.1;Parent=gene-ND4L;Dbxref=NCBI_GP:ACY00197.1;Name=ACY00197.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=ACY00197.1;transl_table=5
+GU001955.1	Genbank	tRNA	9413	9477	.	+	.	ID=rna-GU001955.1:9413..9477;gbkey=tRNA;product=tRNA-Thr
+GU001955.1	Genbank	exon	9413	9477	.	+	.	ID=exon-GU001955.1:9413..9477-1;Parent=rna-GU001955.1:9413..9477;gbkey=tRNA;product=tRNA-Thr
+GU001955.1	Genbank	tRNA	9478	9541	.	-	.	ID=rna-GU001955.1:9478..9541;gbkey=tRNA;product=tRNA-Pro
+GU001955.1	Genbank	exon	9478	9541	.	-	.	ID=exon-GU001955.1:9478..9541-1;Parent=rna-GU001955.1:9478..9541;gbkey=tRNA;product=tRNA-Pro
+GU001955.1	Genbank	gene	9543	10022	.	+	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	9543	10022	.	+	0	ID=cds-ACY00193.1;Parent=gene-ND6;Dbxref=NCBI_GP:ACY00193.1;Name=ACY00193.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=ACY00193.1;transl_table=5
+GU001955.1	Genbank	gene	10022	11149	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	10022	11149	.	+	0	ID=cds-ACY00194.1;Parent=gene-CYTB;Dbxref=NCBI_GP:ACY00194.1;Name=ACY00194.1;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=ACY00194.1;transl_table=5
+GU001955.1	Genbank	tRNA	11148	11214	.	+	.	ID=rna-GU001955.1:11148..11214;gbkey=tRNA;product=tRNA-Ser
+GU001955.1	Genbank	exon	11148	11214	.	+	.	ID=exon-GU001955.1:11148..11214-1;Parent=rna-GU001955.1:11148..11214;gbkey=tRNA;product=tRNA-Ser
+GU001955.1	Genbank	gene	11233	12178	.	-	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+GU001955.1	Genbank	CDS	11233	12178	.	-	0	ID=cds-ACY00195.2;Parent=gene-ND1;Dbxref=NCBI_GP:ACY00195.2;Name=ACY00195.2;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=ACY00195.2;transl_except=(pos:complement(11233..11233)%2Caa:TERM);transl_table=5
+GU001955.1	Genbank	tRNA	12182	12248	.	-	.	ID=rna-GU001955.1:12182..12248;gbkey=tRNA;product=tRNA-Leu
+GU001955.1	Genbank	exon	12182	12248	.	-	.	ID=exon-GU001955.1:12182..12248-1;Parent=rna-GU001955.1:12182..12248;gbkey=tRNA;product=tRNA-Leu
+GU001955.1	Genbank	rRNA	12249	13539	.	-	.	ID=rna-GU001955.1:12249..13539;gbkey=rRNA;product=large subunit ribosomal RNA
+GU001955.1	Genbank	exon	12249	13539	.	-	.	ID=exon-GU001955.1:12249..13539-1;Parent=rna-GU001955.1:12249..13539;gbkey=rRNA;product=large subunit ribosomal RNA
+GU001955.1	Genbank	tRNA	13540	13598	.	-	.	ID=rna-GU001955.1:13540..13598;gbkey=tRNA;product=tRNA-Val
+GU001955.1	Genbank	exon	13540	13598	.	-	.	ID=exon-GU001955.1:13540..13598-1;Parent=rna-GU001955.1:13540..13598;gbkey=tRNA;product=tRNA-Val
+GU001955.1	Genbank	rRNA	13599	14141	.	-	.	ID=rna-GU001955.1:13599..14141;end_range=14141,.;gbkey=rRNA;partial=true;product=small subunit ribosomal RNA
+GU001955.1	Genbank	exon	13599	14141	.	-	.	ID=exon-GU001955.1:13599..14141-1;Parent=rna-GU001955.1:13599..14141;end_range=14141,.;gbkey=rRNA;partial=true;product=small subunit ribosomal RNA
+
