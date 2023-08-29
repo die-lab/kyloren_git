@@ -1,0 +1,1 @@
+load_data(2,["k__Fungi;p__Ascomycota", "k__Fungi;p__Basidiomycota", "k__Fungi;p__Mucoromycota", "k__Fungi;__"],["index", "k__Fungi;p__Ascomycota", "k__Fungi;p__Basidiomycota", "k__Fungi;p__Mucoromycota", "k__Fungi;__"],[{"index":"S1","k__Fungi;p__Ascomycota":69652.0,"k__Fungi;p__Basidiomycota":11822.0,"k__Fungi;p__Mucoromycota":1704.0,"k__Fungi;__":628.0}]);

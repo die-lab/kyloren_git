@@ -1,0 +1,1 @@
+load_data(2,["k__Fungi;p__Ascomycota", "k__Fungi;p__Basidiomycota", "k__Fungi;__", "k__Chromista;p__unidentified"],["index", "k__Fungi;p__Ascomycota", "k__Fungi;p__Basidiomycota", "k__Fungi;__", "k__Chromista;p__unidentified"],[{"index":"S27","k__Fungi;p__Ascomycota":39483.0,"k__Fungi;p__Basidiomycota":49780.0,"k__Fungi;__":173.0,"k__Chromista;p__unidentified":8.0}]);
