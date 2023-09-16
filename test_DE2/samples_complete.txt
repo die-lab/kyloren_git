@@ -1,0 +1,16 @@
+run	condition	origin	samples	sex
+BaRoBM1B	rossius	bertinoro	ro1	male
+BaRoBM2A	rossius	bertinoro	ro2	male
+BaRoKF1A	rossius	krk	ro3	female
+SCA1F3A	hybridus2	carubella	h2.1	female	
+SCA1F4B	hybridus2	carubella	h2.1	female
+SCA2F2A	grandii	carubella	gr1	female
+SCA2M1A	grandii	carubella	gr2	male
+SCA2M2A	grandii	carubella	gr3	male
+SCA2M3A	grandii	carubella	gr4	male
+SCOF1B	hybridus1	scoglitti	h1.1	female
+SCOF2A	atticus	scoglitti	at1	female
+SCOF3A	atticus	scoglitti	at2	female
+
+
+

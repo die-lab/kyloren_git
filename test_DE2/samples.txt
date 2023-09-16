@@ -1,0 +1,16 @@
+run condition
+BaRoBM1B rossius
+BaRoBM2A rossius
+BaRoKF1A rossius
+SCA1F3A hybridus2
+SCA1F4B hybridus2
+SCA2F2A grandii
+SCA2M1A grandii
+SCA2M2A grandii
+SCA2M3A grandii
+SCOF1B hybridus1
+SCOF2A atticus
+SCOF3A atticus
+ 
+ 
+ 

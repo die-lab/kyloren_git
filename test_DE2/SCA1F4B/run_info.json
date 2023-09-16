@@ -1,0 +1,13 @@
+{
+	"n_targets": 2809,
+	"n_bootstraps": 0,
+	"n_processed": 36725080,
+	"n_pseudoaligned": 5876096,
+	"n_unique": 5697836,
+	"p_pseudoaligned": 16.0,
+	"p_unique": 15.5,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Fri Sep 15 12:49:31 2023",
+	"call": "kallisto quant -i ind_kal.BaRo -o output.SCA1F4B -t 12 SCA1F4B_1.big.trimmed.fp.fastq SCA1F4B_2.big.trimmed.fp.fastq"
+}

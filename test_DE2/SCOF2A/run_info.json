@@ -1,0 +1,13 @@
+{
+	"n_targets": 2809,
+	"n_bootstraps": 0,
+	"n_processed": 39414461,
+	"n_pseudoaligned": 6677882,
+	"n_unique": 6523976,
+	"p_pseudoaligned": 16.9,
+	"p_unique": 16.6,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Fri Sep 15 11:44:02 2023",
+	"call": "kallisto quant -i ind_kal.BaAt -o output.SCOF2A -t 12 SCOF2A_1.big.trimmed.fp.fastq SCOF2A_2.big.trimmed.fp.fastq"
+}

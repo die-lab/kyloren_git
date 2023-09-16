@@ -1,0 +1,13 @@
+{
+	"n_targets": 2809,
+	"n_bootstraps": 0,
+	"n_processed": 34245124,
+	"n_pseudoaligned": 3752967,
+	"n_unique": 3599318,
+	"p_pseudoaligned": 11.0,
+	"p_unique": 10.5,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Fri Sep 15 12:23:57 2023",
+	"call": "kallisto quant -i ind_kal.BaGr -o output.SCA2M2A -t 12 SCA2M2A_1.big.trimmed.fp.fastq SCA2M2A_2.big.trimmed.fp.fastq"
+}
