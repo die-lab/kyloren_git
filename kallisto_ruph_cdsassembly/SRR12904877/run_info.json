@@ -1,0 +1,13 @@
+{
+	"n_targets": 57637,
+	"n_bootstraps": 0,
+	"n_processed": 4124872,
+	"n_pseudoaligned": 2732126,
+	"n_unique": 2101391,
+	"p_pseudoaligned": 66.2,
+	"p_unique": 50.9,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Tue Nov 28 19:20:08 2023",
+	"call": "kallisto quant -i ruph_kal_index -o SRR12904877_out -t 12 /home/PERSONALE/diego.carli2/new_smith_RNA/version6/ruph_transcriptome/4_RuPh_sortmerna/SRR12904877/out/SRR12904877_1.kraken2.sortmerna.fq.gz /home/PERSONALE/diego.carli2/new_smith_RNA/version6/ruph_transcriptome/4_RuPh_sortmerna/SRR12904877/out/SRR12904877_2.kraken2.sortmerna.fq.gz"
+}
